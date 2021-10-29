@@ -1,0 +1,71 @@
+
+/* ---------------PAGE LAYOUT---------------*/
+
+/* centers code vertically */ 
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+/* ---------------CODE CHUNK STYLING---------------*/
+
+ /* code wrapping -- see https://github.com/yihui/xaringan/wiki/Word-wrapping-of-code-output */ 
+ pre {
+  white-space: pre-wrap;
+}
+
+/* makes code chunk text smaller */ 
+.remark-code {
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+  font-size: 60%;
+ }
+
+
+.remark-inline-code {
+  color: #912a01;
+  /*border: #434f54;*/
+  padding: 4px;
+  /*background-color: #eef1e0*/
+  font-size: 65%;
+  font-family: Consolas,monaco,monospace;
+}
+
+/* ---------------FONT SIZES---------------*/
+
+/* resize slide text -- see https://stackoverflow.com/questions/53481699/customize-font-size-for-all-the-slides-in-xaringan */ 
+/* .remark-slide-content {
+    font-size: 30px;
+    padding: 1em 4em 1em 4em;
+}
+
+ /* resize single slide text -- see https://stackoverflow.com/questions/53481699/customize-font-size-for-all-the-slides-in-xaringan (add 'class: my-one-page-font' before title of slide)*/ 
+.my-one-page-font {
+  font-size: 40px;
+}
+ 
+/* ---------------EMBEDDED CONTENT---------------*/
+
+/* resize embedded tweet -- see https://wordpress.com/forums/topic/css-code-to-resize-embedded-tweets/ */ 
+.embed-twitter {
+    width: 75% !important;
+}
+
+/* ---------------Table width = 100% max-width ---------------*/
+
+.remark-slide table{
+        width: 100%;
+    }
+    
+/*--------------- Change the background color to white for shaded rows (even rows) ---------------*/
+
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+        background-color: white;
+    }
+    
+
+

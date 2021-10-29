@@ -1,0 +1,349 @@
+---
+title: "RStudio Tips & Tricks"
+subtitle: "<span style = 'font-size: 50%;'>*IDE and other keyboard shortcuts to make your a more efficient coder*</span>"
+author: "Sam Csik | Data Training Coordinator<br><span style = 'font-size: 65%;'>National Center for Ecological Analysis & Synthesis<br></span>"
+date: "<span style = 'font-size: 85%;'>Masters of Environmental Data Science | Fall 2021</span><br><span style = 'font-size: 65%;'>Slides & source code available on [GitHub](https://github.com/UCSB-MEDS/R-tips-and-tricks))</span>"
+output:
+  xaringan::moon_reader:
+    css: ['xaringan-themer.css', 'my-css.css']
+    seal: false
+    nature:
+      countIncrementalSlides: false
+      titleSlideClass: ["left", "middle", "inverse"]
+      highlightLines: true
+      highlightStyle: github
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width = 9, fig.height = 3.5, fig.retina = 3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include = FALSE, warning = FALSE}
+# load packages
+library(xaringanthemer)
+library(tidyverse)
+library(kableExtra)
+
+# set accent theme
+style_mono_accent(
+  header_font_google = google_font("Nunito Sans"), # Sanchez
+  text_font_google = google_font("Glacial Indifference", "300", "300i"),
+  code_font_google = google_font("Fira Code"),
+  base_color = "#05859B",
+  white_color = "#93C6C2", 
+  background_color = "#FFFFFF",
+  link_color = "#9b0546",
+  text_bold_color = "#05859B",
+  header_font_weight = 400,
+  header_h1_font_size = "2.25rem",
+  header_h2_font_size = "1.75rem",
+  header_h3_font_size = "1.5rem",
+  footnote_font_size = "0.7em",
+)
+```
+
+class: inverse, middle
+
+# RStudio Tips & Tricks 
+### ...and other keyboard shortcuts to make you a more efficient coder `r fontawesome::fa("keyboard", fill = "#93C6C2", a11y = "sem")`<br>
+
+<br>
+
+<span style = 'font-size: 130%;'>Sam Csik | Data Training Coordinator</span>  
+
+National Center for Ecological Analysis & Synthesis<br>
+
+<br>
+
+<span style = 'font-size: 130%;'>Masters of Environmental Data Science | Fall 2021</span>   
+
+Slides & source code available on [`r fontawesome::fa("github", fill = "#93C6C2", a11y = "sem")`](https://github.com/UCSB-MEDS/R-tips-and-tricks)
+
+---
+## Keyboard shortcuts...are they really worth my time?
+
+<br>
+--
+
+`r fontawesome::fa("keyboard", fill = "#05859B", a11y = "sem")` Because both your hands remain on the keyboard, shortcuts are often **faster** than a mouse
+
+<br>
+--
+
+`r fontawesome::fa("clock", fill = "#05859B", a11y = "sem")` Yes, learning shortcuts *does* take some patience and practice, but it will **save you time** in the long run
+
+<br>
+--
+
+`r fontawesome::fa("globe", fill = "#05859B", a11y = "sem")` Good news: lots keyboard shortcuts are **universal**, meaning you can use them across a variety applications
+
+<br>
+--
+
+`r fontawesome::fa("mouse-pointer", fill = "#05859B", a11y = "sem")` Looking for more shortcuts? **Clicking on or hovering over** menu items/buttons in many applications will reveal the corresponding keyboard shortcut
+
+---
+## `r fontawesome::fa("gamepad", fill = "#05859B", a11y = "sem")` Make it a game
+
+> <span style = 'font-size: 70%;'>*[shortcutFoo](https://www.shortcutfoo.com/) was created by programmers for programmers in an attempt to make learning your editor fun, easy, and effective. Akin to the days of first learning how to type on a keyboard, shortcutFoo aims to help programmers accomplish more in less time and with fewer keystrokes.*</span>
+
+.center[
+```{r, echo = FALSE, out.width='60%', out.height='60%'}
+knitr::include_graphics("media/pics/shortcutFoo.jpeg")
+```
+]
+
+<span style = 'font-size: 70%;'>Learn and practice shortcuts for all your favorite applications -- ranging from programming editors like RStudio and PyCharm to apps like Twitter, GitHub, and Slack. Start a new game at https://www.shortcutfoo.com/app/dojos.</span>
+
+---
+## `r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac vs. `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`  Windows
+
+<br>
+
+<span style = 'font-size: 90%;'>Keyboard shortcuts typically involve pressing two or more keys in a specific order. Most times, the key combos include at least one of the following: control, option, command, alt</span>
+
+.pull-left[
+```{r echo = FALSE, out.width = '110%'}
+knitr::include_graphics("media/pics/mac_basics.jpeg")
+```
+.center[
+<span style = 'font-size: 75%;'>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Macs use **control**, **option**, and **command** keys</span>
+]
+]
+
+.pull-right[
+```{r echo = FALSE, out.width = '95%'}
+knitr::include_graphics("media/pics/windows_basics.jpeg")
+```
+.center[
+<span style = 'font-size: 75%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` PCs use the **ctrl** (Control) and **alt** keys</span>
+]
+]
+
+.footnote[
+Image source: https://edu.gcfglobal.org/en/techsavvy/keyboard-shortcuts/1/
+]
+---
+class: inverse center middle
+
+# General keyboard shortcuts
+
+Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y = "sem")` across lots of your favorite applications with the stroke of a few keys
+
+---
+
+## `r fontawesome::fa("copy", fill = "#05859B", a11y = "sem")` Copy/Cut, Paste, Undo, Redo
+
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("media/gif/copy_cut_undo_redo.gif")
+```
+]
+
+```{r, echo = FALSE, eval = TRUE, out.height='50%'}
+# #............................load data...........................
+# copy_cut <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/117mebnVTR43g8cabp8VM6zmslcRANFtKu7uQg8-r-BE/edit?usp=sharing")
+# 
+# #...........................edit cells...........................
+# # copy_cut[1,2] <- 
+# #cell_spec(copy_cut[1,2], monospace = TRUE)
+# 
+# #..........................build table...........................
+# copy_cut_tbl <- copy_cut %>% 
+#   kable(col.names = c("Action", "Mac", "PC"), format = "html", escape = FALSE, table.attr = "style='height:60%;'") %>% 
+#   kable_styling(full_width = TRUE) #%>% 
+#   #kableExtra::row_spec(1, extra_css = "border-bottom: 1px solid gainsboro")
+# 
+# kable_classic(copy_cut_tbl)
+```
+
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy:  (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `C` `r fontawesome::fa("arrows-alt-h", fill = "#000000", a11y = "sem")` (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `C`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut:    (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `X`........(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `X`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `V`.....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `V`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `Z`......(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `Z`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` redo:   (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `Y`.......(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `Y`</span>  
+
+---
+
+## `r fontawesome::fa("search", fill = "#05859B", a11y = "sem")` Find & `r fontawesome::fa("save", fill = "#05859B", a11y = "sem")` Save
+
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("media/gif/find_replace_save.gif")
+```
+]
+
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `F`....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `F`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `S`....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `S`</span>  
+  
+---
+## `r fontawesome::fa("highlighter", fill = "#05859B", a11y = "sem")` Select Text (UPDATE GIF)
+
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("media/gif/select_text.gif")
+```
+]
+
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `A`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything in a particular direction: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `arrow key`</span>   
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character in a particular direction: `shift` + `arrow key`</span>   
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything within the closest set of closed parentheses/brackets: `control` + `shift` + `E`</span>   
+
+---
+## `r fontawesome::fa("step-forward", fill = "#05859B", a11y = "sem")` Jump to the beginning/end of lines
+
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("media/gif/jump_beginning_end.gif")
+```
+]
+
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `right arrow`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `left arrow`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `left/right arrow`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` **Bonus**: begin typing a function name and RStudio will suggest functions for auto-complete</span>
+
+---
+## `r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` `r fontawesome::fa("arrow-right", fill = "#05859B", a11y = "sem")` Changing tabs
+
+.center[
+<span style = 'font-size: 80%;'>Use this to navigate between browser tabs or open scripts/files in RStudio.</span>
+]
+
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("media/gif/tabs.gif")
+```
+]
+
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `tab`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span>   
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `tab`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span> 
+
+---
+class: inverse, middle, center
+
+## R/RStudio-specific shortcuts 
+
+Quickly write/edit code and navigate the RStudio IDE using these shortcuts
+
+---
+## `r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` Operators & `r fontawesome::fa("hashtag", fill = "#05859B", a11y = "sem")` Commenting Out Code
+
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("media/gif/operators_comment.gif")
+```
+]
+
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `M`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `option` + `-`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `-`</span>  
+
+.footnote[This is particularly helpful when you are troubleshooting code -- quickly comment/uncomment sections of code to help isolate the error!]
+
+---
+## Go to file/function
+
+control + .
+
+---
+## Restart R
+
+shift + command + F10
+
+---
+## Insert code chunk
+
+Mac:
+* `Command` + `Option` + `I`
+
+---
+## Function notation creation shortcut
+
+Mac: 
+* `Control` + `Option` + `X`
+
+**see link for gif** https://docs.google.com/presentation/d/13ff2h-9JEd-ziRua8i5Akaypp0br8BOUXQzO6KtaZA8/edit#slide=id.g87679c48c1_0_0
+
+---
+## Multi-line cursor
+
+Mac:
+* `Control` + `Option` + down arrow
+
+**see link for gif** https://docs.google.com/presentation/d/13ff2h-9JEd-ziRua8i5Akaypp0br8BOUXQzO6KtaZA8/edit#slide=id.g859a491c40_0_96
+
+---
+## Align messy code (reformat code)
+
+command + shift + A
+
+---
+class: inverse, middle, center
+
+## Customize your RStudio IDE experience
+
+The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#93C6C2", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.
+
+---
+## Open multiple sessions at the same time
+
+---
+## Soft wrap long lines & rainbow parenthases
+
+---
+## code snippets
+
+Tools -> Global Options -> Code -> Enable Code Snippets
+
+---
+## Console
+
+Tools -> Global Options -> Console -> Limit Visible Console Output (default = 1000 lines)
+
+---
+## RStudio Appearance 
+
+Tools -> Global Options -> Appearance -> RStudio Theme/Font Size/Font Style/Zoom 
+
+---
+## `r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More keyboard shortcuts
+
+From RStudio Tools -> Keyboard Shortcut Help (or option + shift + K)
+
+`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac:  https://support.apple.com/en-us/HT201236
+
+`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` PC: https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec 
+
+---
+## `r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks!
+
+`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Tips: https://twitter.com/rstudiotips
+
+`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` R Function A Day: https://twitter.com/rfunctionaday
+---
+class: center, middle
+
+## Happy typing!
+```{r echo = FALSE, out.width = '60%'}
+knitr::include_graphics("media/kermit.gif")
+```
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)<br>
+[**gadenbuie/xaringanthemer**](https://github.com/gadenbuie/xaringanthemer)
+
+<span style = 'font-size: 75%;'>*If you see mistakes or want to suggest changes, please create an [issue](https://github.com/UCSB-MEDS/R-tips-and-tricks/issues) on the source repository.*</span>
+
