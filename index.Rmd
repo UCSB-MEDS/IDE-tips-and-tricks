@@ -127,7 +127,7 @@ knitr::include_graphics("media/pics/mac_basics.jpeg")
 knitr::include_graphics("media/pics/windows_basics.jpeg")
 ```
 .center[
-<span style = 'font-size: 75%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` PCs use the **ctrl** (Control) and **alt** keys</span>
+<span style = 'font-size: 75%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` Windows machines use the **ctrl** (Control) and **alt** keys</span>
 ]
 ]
 
@@ -147,26 +147,10 @@ Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y 
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("media/gif/copy_cut_undo_redo.gif")
+#knitr::include_graphics("media/gif/copy_cut_undo_redo.gif")
 ```
+<iframe width="700" height="415" src="media/mp4/copy_cut_undo_redo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
-
-```{r, echo = FALSE, eval = TRUE, out.height='50%'}
-# #............................load data...........................
-# copy_cut <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/117mebnVTR43g8cabp8VM6zmslcRANFtKu7uQg8-r-BE/edit?usp=sharing")
-# 
-# #...........................edit cells...........................
-# # copy_cut[1,2] <- 
-# #cell_spec(copy_cut[1,2], monospace = TRUE)
-# 
-# #..........................build table...........................
-# copy_cut_tbl <- copy_cut %>% 
-#   kable(col.names = c("Action", "Mac", "PC"), format = "html", escape = FALSE, table.attr = "style='height:60%;'") %>% 
-#   kable_styling(full_width = TRUE) #%>% 
-#   #kableExtra::row_spec(1, extra_css = "border-bottom: 1px solid gainsboro")
-# 
-# kable_classic(copy_cut_tbl)
-```
 
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy:  (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `C` `r fontawesome::fa("arrows-alt-h", fill = "#000000", a11y = "sem")` (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `C`</span>  
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut:    (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `X`........(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `X`</span>  
@@ -180,8 +164,9 @@ knitr::include_graphics("media/gif/copy_cut_undo_redo.gif")
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("media/gif/find_replace_save.gif")
+#knitr::include_graphics("media/gif/find_replace_save.gif")
 ```
+<iframe width="700" height="415" src="media/mp4/find_replace_save.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `F`....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `F`</span>  
@@ -192,8 +177,11 @@ knitr::include_graphics("media/gif/find_replace_save.gif")
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("media/gif/select_text.gif")
+# knitr::include_graphics("media/gif/select_text.gif")
 ```
+.center[
+<iframe width="700" height="415" src="media/mp4/select_text.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 ]
 
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `A`</span>  
@@ -206,8 +194,9 @@ knitr::include_graphics("media/gif/select_text.gif")
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("media/gif/jump_beginning_end.gif")
+# knitr::include_graphics("media/gif/jump_beginning_end.gif")
 ```
+<iframe width="700" height="415" src="media/mp4/jump_beginning_end.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `right arrow`</span>  
@@ -218,14 +207,13 @@ knitr::include_graphics("media/gif/jump_beginning_end.gif")
 ---
 ## `r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` `r fontawesome::fa("arrow-right", fill = "#05859B", a11y = "sem")` Changing tabs
 
-.center[
 <span style = 'font-size: 80%;'>Use this to navigate between browser tabs or open scripts/files in RStudio.</span>
-]
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("media/gif/tabs.gif")
+# knitr::include_graphics("media/gif/tabs.gif")
 ```
+<iframe width="700" height="415" src="media/mp4/tabs.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `tab`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span>   
@@ -238,19 +226,35 @@ class: inverse, middle, center
 
 Quickly write/edit code and navigate the RStudio IDE using these shortcuts
 
+
+
+---
+## RStudio Keyboard Shortcut Quick Reference
+
+.center[
+```{r echo = FALSE, out.width = '90%'}
+knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
+```
+]
+
+`option` + `shift` + `K`
+
+---
+## Run lines of code
+
 ---
 ## `r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` Operators & `r fontawesome::fa("hashtag", fill = "#05859B", a11y = "sem")` Commenting Out Code
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("media/gif/operators_comment.gif")
+# knitr::include_graphics("media/gif/operators_comment.gif")
 ```
+<iframe width="700" height="415" src="media/mp4/operators_comment.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `M`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `M`</span>  
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `option` + `-`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `-`</span>  
-
-.footnote[This is particularly helpful when you are troubleshooting code -- quickly comment/uncomment sections of code to help isolate the error!]
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` comment/uncomment code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `shift` + `C`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span>  
 
 ---
 ## Go to file/function
@@ -258,15 +262,17 @@ knitr::include_graphics("media/gif/operators_comment.gif")
 control + .
 
 ---
-## Restart R
+## Restart R (NOT WORKING)
 
-shift + command + F10
+command + shift + F10
+ctrl + shirt + F10
 
 ---
 ## Insert code chunk
 
 Mac:
-* `Command` + `Option` + `I`
+* `command` + `option` + `I`
+PC: 
 
 ---
 ## Function notation creation shortcut
@@ -280,14 +286,39 @@ Mac:
 ## Multi-line cursor
 
 Mac:
-* `Control` + `Option` + down arrow
+* `control` + `option` + `down arrow`
 
 **see link for gif** https://docs.google.com/presentation/d/13ff2h-9JEd-ziRua8i5Akaypp0br8BOUXQzO6KtaZA8/edit#slide=id.g859a491c40_0_96
 
 ---
 ## Align messy code (reformat code)
 
-command + shift + A
+`command` + `shift` + `A`
+
+---
+## Code snippets
+
+<span style = 'font-size: 75%;'>Code snippets allow you to more quickly produce code by typing an abbreviated version of a function, which RStudio then auto-completes and/or fills in placeholders for the necessary arguments. You can check out all default code snippets by navigating to **Tools** -> **Global Options** -> **Code** -> **Edit Snippets...**. To use a snippet, type its *keyword* (you see a pop up that denotes the keyword as a `{snippet}`), then *tab* to auto-complete. Use the *tab* key to move across and fill in any text placeholders.</span>
+
+.center[
+<iframe width="700" height="415" src="media/mp4/snippets.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+## Adding custom code snippets
+
+<span style = 'font-size:75%;'>You can create your own custom code snippets by adding them to the **Edit Snippets...** editor. The structure of a snippet is as follows:</span>
+
+```{r, eval = FALSE, echo = TRUE}
+snippet keyword
+  function(${1:input1}, ${2:input2}, ${N:inputN})
+```
+
+<span style = 'font-size:75%;'>`$` denotes where the cursor should jump after completing each section of a snippet. Read more about how to customize code snippets [here](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?version=1.4.1103&mode=desktop).</span>
+
+.center[
+<iframe width="600" height="315" src="media/mp4/custom_snippet.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 
 ---
 class: inverse, middle, center
@@ -297,28 +328,123 @@ class: inverse, middle, center
 The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#93C6C2", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.
 
 ---
-## Open multiple sessions at the same time
-
----
-## Soft wrap long lines & rainbow parenthases
-
----
-## code snippets
-
-Tools -> Global Options -> Code -> Enable Code Snippets
-
----
-## Console
-
-Tools -> Global Options -> Console -> Limit Visible Console Output (default = 1000 lines)
-
----
 ## RStudio Appearance 
 
-Tools -> Global Options -> Appearance -> RStudio Theme/Font Size/Font Style/Zoom 
+<span style = 'font-size: 75%;'>Change the appearance of RStudio by choosing **Tools** -> **Global Options** -> **Appearance** and try out different options from the **Editor font**, **Editor font size**, and **Editor theme** drop downs.</span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '90%'}
+knitr::include_graphics("media/pics/appearance.png")
+```
+]
 
 ---
-## `r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More keyboard shortcuts
+## Rearrange Panel Layout
+
+<span style = 'font-size: 75%;'>Change the panel layout (and add additional panels!) by choosing **Tools** -> **Global Options** -> **Pane Layout** and select what you would like in each RStudio quadrant. </span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '90%'}
+knitr::include_graphics("media/pics/panels.png")
+```
+]
+
+---
+## Soft wrap long lines & rainbow parentheses
+
+<span style = 'font-size: 75%;'>*Soft wrap long lines* to make all code/text visible, even on a small window. Enable *rainbow parentheses* to easily identify matching opening/closing parentheses.</span>
+
+.pull-left[
+```{r, echo = FALSE, eval = TRUE, out.width = '85%'}
+knitr::include_graphics("media/pics/non_rainbow_wrap.png")
+```
+.center[
+<span style = 'font-size: 75%;'>**Without** soft wrap and rainbow parentheses</span>
+]
+]
+
+.pull-right[
+```{r, echo = FALSE, eval = TRUE, out.width = '88%'}
+knitr::include_graphics("media/pics/rainbow_wrap.png")
+```
+.center[
+<span style = 'font-size: 75%;'>**With** soft wrap and rainbow parentheses</span>
+]
+]
+
+---
+## Soft wrap long lines & rainbow parentheses
+
+<span style = 'font-size: 75%;'>Enable soft wrap and rainbow parentheses by choosing **Code** -> **Soft Wrap Long Lines** and **Rainbow parentheses** from the top menu bar.</span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '50%'}
+knitr::include_graphics("media/pics/enable_rainbow_wrap.png")
+```
+]
+
+---
+## Open multiple RStudio sessions at the same time
+
+<span style = 'font-size: 75%;'>You may have more than one RStudio session (i.e. R project) open at a time. Click on your currently-open project at the top right corner of RStudio. Choose either ***Open Project in New Session...*** to browse all of your R projects, or click on the ***new window*** icon next to one of your more recently opened projects. Doing so will pop open an additional RStudio window with that project.</span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '85%'}
+knitr::include_graphics("media/pics/new_session.png")
+```
+]
+
+---
+## Change console output limit
+
+<span style = 'font-size: 75%;'>Change the console output limit by choosing **Tools** -> **Global Options** -> **Console** -> check the box next to **Limit Visible Console Output** and update the value in the **Limit output line length to:**</span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '85%'}
+knitr::include_graphics("media/pics/console.png")
+```
+]
+
+---
+## Set knitr code chunks options
+
+<span style = 'font-size: 75%;'>Easily update knitr code chunk options (e.g. code chunk name, showing warnings and errors, figure sizes, chunk output type) by clicking on the gear icon in the top right corner of a code chunk.</span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '85%'}
+# knitr::include_graphics("media/mp4/knitr_chunks.mp4")
+```
+<iframe width="700" height="415" src="media/mp4/knitr_chunks.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+## Explore the RStudio IDE cheat sheet (1/2)
+
+.center[
+<span style = 'font-size: 65%;'>Download the RStudio IDE cheat sheet [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf).</span>
+]
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '85%'}
+knitr::include_graphics("media/pics/rstudio_ide1.png")
+```
+]
+
+---
+## Explore the RStudio IDE cheat sheet (2/2)
+
+.center[
+<span style = 'font-size: 65%;'>Download the RStudio IDE cheat sheet [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf).</span>
+]
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '85%'}
+knitr::include_graphics("media/pics/rstudio_ide2.png")
+```
+]
+
+---
+## `r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help 
 
 From RStudio Tools -> Keyboard Shortcut Help (or option + shift + K)
 
@@ -326,12 +452,15 @@ From RStudio Tools -> Keyboard Shortcut Help (or option + shift + K)
 
 `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` PC: https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec 
 
+cheat sheets (download): 
+
 ---
 ## `r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks!
 
 `r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Tips: https://twitter.com/rstudiotips
 
 `r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` R Function A Day: https://twitter.com/rfunctionaday
+
 ---
 class: center, middle
 
