@@ -149,14 +149,15 @@ Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y 
 ```{r echo = FALSE, out.width = '70%'}
 #knitr::include_graphics("media/gif/copy_cut_undo_redo.gif")
 ```
-<iframe width="700" height="415" src="media/mp4/copy_cut_undo_redo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="365" src="media/mp4/copy_cut_undo_redo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy:  (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `C` `r fontawesome::fa("arrows-alt-h", fill = "#000000", a11y = "sem")` (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `C`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut:    (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `X`........(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `X`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `V`.....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `V`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `Z`......(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `Z`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` redo:   (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `Y`.......(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `Y`</span>  
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `C`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `X`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `V`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `Z`</span>  
+]
 
 ---
 
@@ -166,28 +167,32 @@ Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y 
 ```{r echo = FALSE, out.width = '70%'}
 #knitr::include_graphics("media/gif/find_replace_save.gif")
 ```
-<iframe width="700" height="415" src="media/mp4/find_replace_save.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="365" src="media/mp4/find_replace_save.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `F`....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `F`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `S`....(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `S`</span>  
-  
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `F`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `S`</span>  
+]
+
 ---
-## `r fontawesome::fa("highlighter", fill = "#05859B", a11y = "sem")` Select Text (UPDATE GIF)
+## `r fontawesome::fa("highlighter", fill = "#05859B", a11y = "sem")` Select Text 
 
 .center[
 ```{r echo = FALSE, out.width = '70%'}
 # knitr::include_graphics("media/gif/select_text.gif")
 ```
 .center[
-<iframe width="700" height="415" src="media/mp4/select_text.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="365" src="media/mp4/select_text.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `A`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything in a particular direction: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `arrow key`</span>   
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character in a particular direction: `shift` + `arrow key`</span>   
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything within the closest set of closed parentheses/brackets: `control` + `shift` + `E`</span>   
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `A`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything in a particular direction: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command` + `shift` + `arrow key`</span>   
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything within a set of closed `( )`: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `E`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`shift` + `arrow key`</span>   
+]
 
 ---
 ## `r fontawesome::fa("step-forward", fill = "#05859B", a11y = "sem")` Jump to the beginning/end of lines
@@ -196,13 +201,15 @@ Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y 
 ```{r echo = FALSE, out.width = '70%'}
 # knitr::include_graphics("media/gif/jump_beginning_end.gif")
 ```
-<iframe width="700" height="415" src="media/mp4/jump_beginning_end.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="365" src="media/mp4/jump_beginning_end.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `right arrow`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `left arrow`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ??? + `left/right arrow`</span>  
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`Alt` + `right arrow`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`Alt` + `left arrow`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `left/right arrow`</span>  
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` **Bonus**: begin typing a function name and RStudio will suggest functions for auto-complete</span>
+]
 
 ---
 ## `r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` `r fontawesome::fa("arrow-right", fill = "#05859B", a11y = "sem")` Changing tabs
@@ -216,8 +223,10 @@ Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y 
 <iframe width="700" height="415" src="media/mp4/tabs.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `tab`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span>   
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `tab`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span> 
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `tab`</span>   
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `tab`</span> 
+]
 
 ---
 class: inverse, middle, center
@@ -225,8 +234,6 @@ class: inverse, middle, center
 ## R/RStudio-specific shortcuts 
 
 Quickly write/edit code and navigate the RStudio IDE using these shortcuts
-
-
 
 ---
 ## RStudio Keyboard Shortcut Quick Reference
@@ -237,30 +244,48 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 ```
 ]
 
-`option` + `shift` + `K`
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Access the RStudio Keyboard Shortcut Quick Reference: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`Alt` + `shift` + `K`</span> 
+]
 
 ---
 ## Run lines of code
+
+.center[
+<iframe width="650" height="365" src="media/mp4/run_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`return`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`enter`</span>
+]
 
 ---
 ## `r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` Operators & `r fontawesome::fa("hashtag", fill = "#05859B", a11y = "sem")` Commenting Out Code
 
 .center[
-```{r echo = FALSE, out.width = '70%'}
-# knitr::include_graphics("media/gif/operators_comment.gif")
-```
-<iframe width="700" height="415" src="media/mp4/operators_comment.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="365" src="media/mp4/operators_comment.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `shift` + `M`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `option` + `-`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `-`</span>  
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` comment/uncomment code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `command` + `shift` + `C`...(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) ???</span>  
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `M`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + `-`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` comment/uncomment code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `C`</span> 
+]
 
 ---
-## Go to file/function
+## Look up function documentation
 
-control + .
+.center[
+<iframe width="650" height="365" src="media/mp4/F1_function.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Look up function documentation for a highlighted function: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`Fn` + `F1`</span> 
+]
+
+.footnote[
+<span style = 'font-size: 65%;'>Windows users: If your `Fn` key is not working, look for an `Fn lock` button (often shared with the `Esc` key). Press `Fn` + `Fn lock` to unlock the F row. Then use `Fn` + `F1` to look up function documentation.</span> 
+]
 ---
 ## Restart R (NOT WORKING)
 
@@ -339,14 +364,25 @@ knitr::include_graphics("media/pics/appearance.png")
 ]
 
 ---
-## Rearrange Panel Layout
+## Rearrange Pane Layout
 
-<span style = 'font-size: 75%;'>Change the panel layout (and add additional panels!) by choosing **Tools** -> **Global Options** -> **Pane Layout** and select what you would like in each RStudio quadrant. </span>
+<span style = 'font-size: 75%;'>Change the pane layout (and add additional panes!) by choosing **Tools** -> **Global Options** -> **Pane Layout** and select what you would like in each RStudio quadrant. </span>
 
 .center[
 ```{r, echo = FALSE, eval = TRUE, out.width = '90%'}
 knitr::include_graphics("media/pics/panels.png")
 ```
+]
+
+---
+## Expand/Collapse Panes
+
+.center[
+<iframe width="650" height="365" src="media/mp4/RStudio_window_panes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+add directions here
 ]
 
 ---
@@ -382,6 +418,9 @@ knitr::include_graphics("media/pics/rainbow_wrap.png")
 knitr::include_graphics("media/pics/enable_rainbow_wrap.png")
 ```
 ]
+
+---
+## Collapsable Code Sections
 
 ---
 ## Open multiple RStudio sessions at the same time
