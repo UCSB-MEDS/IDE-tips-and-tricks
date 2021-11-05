@@ -6,4 +6,4 @@
 
 As environmental data scientists, we spend *a lot* of time in RStudio. Taking some time to learn (a) the many ways to customize your RStudio IDE (integrated development environment) and (b) the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!
 
-Presentation slides are available [here]() (slides coming soon).
+Presentation slides are available [here](https://ucsb-meds.github.io/R-tips-and-tricks/).
