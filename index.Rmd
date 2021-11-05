@@ -332,10 +332,30 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Hold (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + drag in the direction you want to stretch your cursor</span>
 ]
 
+???
+```{r, eval = FALSE, echo = FALSE}
+# saving this for live coding example
+my_2021_dates <- c(
+  "2021-01-01"
+  "2021-01-02"
+  "2021-01-03"
+  "2021-01-04"
+  "2021-01-05"
+  "2021-01-06"
+  "2021-01-07"
+)
+```
+
 ---
 ## `r fontawesome::fa("align-left", fill = "#05859B", a11y = "sem")` Align messy code (reformat code)
 
-`command` + `shift` + `A`
+.center[
+<iframe width="650" height="365" src="media/mp4/align_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Properly align oddly indented code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `A`</span>
+]
 
 ---
 ## `r fontawesome::fa("compress-alt", fill = "#05859B", a11y = "sem")` Code snippets
@@ -365,8 +385,13 @@ snippet keyword
 ---
 ## `r fontawesome::fa("power-off", fill = "#05859B", a11y = "sem")` Restart R 
 
-command + shift + Fn + F10
-ctrl + shift + Fn + F10
+.center[
+<iframe width="650" height="365" src="media/mp4/restartR.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Restart your R session: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + (`Fn`) + `F10`</span>
+]
 
 ---
 class: inverse, middle, center
@@ -376,7 +401,7 @@ class: inverse, middle, center
 The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#93C6C2", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.
 
 ---
-## RStudio Appearance 
+## `r fontawesome::fa("palette", fill = "#05859B", a11y = "sem")` RStudio Appearance 
 
 <span style = 'font-size: 75%;'>Change the appearance of RStudio by choosing **Tools** -> **Global Options** -> **Appearance** and try out different options from the **Editor font**, **Editor font size**, and **Editor theme** drop downs.</span>
 
@@ -387,7 +412,7 @@ knitr::include_graphics("media/pics/appearance.png")
 ]
 
 ---
-## Rearrange Pane Layout
+## `r fontawesome::fa("th-large", fill = "#05859B", a11y = "sem")` Rearrange Pane Layout
 
 <span style = 'font-size: 75%;'>Change the pane layout (and add additional panes!) by choosing **Tools** -> **Global Options** -> **Pane Layout** and select what you would like in each RStudio quadrant. </span>
 
@@ -450,10 +475,23 @@ knitr::include_graphics("media/pics/enable_rainbow_wrap.png")
 ]
 
 ---
-## Code folding
+## `r fontawesome::fa("eye-slash", fill = "#05859B", a11y = "sem")` Code folding
+
+<span style = 'font-size: 80%;'>Any comment line which includes at least 4 trailing `-`, `=`, or `#` automatically creates a code section. You can read more about code folding [here](https://support.rstudio.com/hc/en-us/articles/200484568-Code-Folding-and-Sections-in-the-RStudio-IDE). Also check out the [{ARTofR}](https://github.com/Hzhang-ouce/ARTofR) package for creating fancier code sections!</span>
+
+.center[
+<iframe width="650" height="315" src="media/mp4/code_folding.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Collapse single section: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option` + `command` + `L`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `L`</span>  
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Expand single section: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option` + `command` + `shift` + `L`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `shift` + `L`</span>  
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Collapse all sections: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option` + `command` + `O`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `O`</span>   
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Expand all sections: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option` + `command` + `shift` + `O`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `alt` + `shift` + `O`</span>
+]
 
 ---
-## Open multiple RStudio sessions at the same time
+## `r fontawesome::fa("plus", fill = "#05859B", a11y = "sem")` Open multiple RStudio sessions
 
 <span style = 'font-size: 75%;'>You may have more than one RStudio session (i.e. R project) open at a time. Click on your currently-open project at the top right corner of RStudio. Choose either ***Open Project in New Session...*** to browse all of your R projects, or click on the ***new window*** icon next to one of your more recently opened projects. Doing so will pop open an additional RStudio window with that project.</span>
 
@@ -515,20 +553,17 @@ knitr::include_graphics("media/pics/rstudio_ide2.png")
 ---
 ## `r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help 
 
-From RStudio Tools -> Keyboard Shortcut Help (or option + shift + K)
+<span style = 'font-size: 80%;'>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  https://support.apple.com/en-us/HT201236</span>
 
-`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac:  https://support.apple.com/en-us/HT201236
+<span style = 'font-size: 80%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec</span>
 
-`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` PC: https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec 
-
-cheat sheets (download): 
 
 ---
 ## `r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks!
 
-`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Tips: https://twitter.com/rstudiotips
+`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)
 
-`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` R Function A Day: https://twitter.com/rfunctionaday
+`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rfunctionaday](https://twitter.com/rfunctionaday)
 
 ---
 class: center, middle
