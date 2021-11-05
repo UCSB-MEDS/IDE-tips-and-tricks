@@ -249,14 +249,26 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 ]
 
 ---
-## Run lines of code
+## `r fontawesome::fa("code", fill = "#05859B", a11y = "sem")` Run lines of code
 
 .center[
 <iframe width="650" height="365" src="media/mp4/run_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 .center[
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`return`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`enter`</span>
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected line(s): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`return`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`enter`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run line(s) without moving cursor: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`return`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`enter`</span>
+]
+
+---
+## `r fontawesome::fa("file-code", fill = "#05859B", a11y = "sem")` Insert code chunk
+
+.center[
+<iframe width="650" height="365" src="media/mp4/insert_code_chunk.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert code chunk (into an RMarkdown file): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + `I`</span>
 ]
 
 ---
@@ -273,7 +285,7 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 ]
 
 ---
-## Look up function documentation
+## `r fontawesome::fa("file-alt", fill = "#05859B", a11y = "sem")` Look up function documentation
 
 .center[
 <iframe width="650" height="365" src="media/mp4/F1_function.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -284,44 +296,49 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 ]
 
 .footnote[
-<span style = 'font-size: 65%;'>Windows users: If your `Fn` key is not working, look for an `Fn lock` button (often shared with the `Esc` key). Press `Fn` + `Fn lock` to unlock the F row. Then use `Fn` + `F1` to look up function documentation.</span> 
+<span style = 'font-size: 70%;'>Windows users: If your `Fn` key is not working, look for an `Fn lock` button (often shared with the `Esc` key). Press `Fn` + `Fn lock` to unlock the F row. Then use `Fn` + `F1` to look up function documentation.</span> 
 ]
----
-## Restart R (NOT WORKING)
-
-command + shift + F10
-ctrl + shirt + F10
 
 ---
-## Insert code chunk
+## Function creation shortcut (extract function)
 
-Mac:
-* `command` + `option` + `I`
-PC: 
+.center[
+<iframe width="650" height="365" src="media/mp4/function_creation.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 
----
-## Function notation creation shortcut
-
-Mac: 
-* `Control` + `Option` + `X`
-
-**see link for gif** https://docs.google.com/presentation/d/13ff2h-9JEd-ziRua8i5Akaypp0br8BOUXQzO6KtaZA8/edit#slide=id.g87679c48c1_0_0
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Quickly create a function from existing arguments: `control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + `X`</span> 
+]
 
 ---
-## Multi-line cursor
+## Variable creation shortcut (extract variable)
 
-Mac:
-* `control` + `option` + `down arrow`
+.center[
+<iframe width="650" height="365" src="media/mp4/extract_variable.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 
-**see link for gif** https://docs.google.com/presentation/d/13ff2h-9JEd-ziRua8i5Akaypp0br8BOUXQzO6KtaZA8/edit#slide=id.g859a491c40_0_96
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Quickly assign an object to a variable name: `control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + `V`</span> 
+]
 
 ---
-## Align messy code (reformat code)
+## `r fontawesome::fa("i-cursor", fill = "#05859B", a11y = "sem")` Multi-line cursor
+
+.center[
+<iframe width="650" height="365" src="media/mp4/multiple_cursors.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Hold (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + drag in the direction you want to stretch your cursor</span>
+]
+
+---
+## `r fontawesome::fa("align-left", fill = "#05859B", a11y = "sem")` Align messy code (reformat code)
 
 `command` + `shift` + `A`
 
 ---
-## Code snippets
+## `r fontawesome::fa("compress-alt", fill = "#05859B", a11y = "sem")` Code snippets
 
 <span style = 'font-size: 75%;'>Code snippets allow you to more quickly produce code by typing an abbreviated version of a function, which RStudio then auto-completes and/or fills in placeholders for the necessary arguments. You can check out all default code snippets by navigating to **Tools** -> **Global Options** -> **Code** -> **Edit Snippets...**. To use a snippet, type its *keyword* (you see a pop up that denotes the keyword as a `{snippet}`), then *tab* to auto-complete. Use the *tab* key to move across and fill in any text placeholders.</span>
 
@@ -330,7 +347,7 @@ Mac:
 ]
 
 ---
-## Adding custom code snippets
+## `r fontawesome::fa("compress-alt", fill = "#05859B", a11y = "sem")` Adding custom code snippets
 
 <span style = 'font-size:75%;'>You can create your own custom code snippets by adding them to the **Edit Snippets...** editor. The structure of a snippet is as follows:</span>
 
@@ -344,6 +361,12 @@ snippet keyword
 .center[
 <iframe width="600" height="315" src="media/mp4/custom_snippet.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
+
+---
+## `r fontawesome::fa("power-off", fill = "#05859B", a11y = "sem")` Restart R 
+
+command + shift + Fn + F10
+ctrl + shift + Fn + F10
 
 ---
 class: inverse, middle, center
@@ -375,18 +398,25 @@ knitr::include_graphics("media/pics/panels.png")
 ]
 
 ---
-## Expand/Collapse Panes
+## `r fontawesome::fa("window-minimize", fill = "#05859B", a11y = "sem")``r fontawesome::fa("window-maximize", fill = "#05859B", a11y = "sem")` Maximize panes
 
 .center[
-<iframe width="650" height="365" src="media/mp4/RStudio_window_panes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="315" src="media/mp4/RStudio_window_panes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 .center[
-add directions here
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize source editor (script): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `1`</span>   
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize console: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `2`</span>   
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize plot window: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `6`</span>   
+<span style = 'font-size: 70%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Return to four pane view: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `0`</span> 
+]
+
+.footnote[
+<span style = 'font-size: 65%;'>Move your cursor to different panes (but not maximize that pane) by using the same key combinations as above sans `shift` (e.g. if my cursor is in the source editor and I would like to jump to the console, use `control` + `2`, then `control` + `1` to jump back to the source editor).</span>
 ]
 
 ---
-## Soft wrap long lines & rainbow parentheses
+## Soft wrap long lines & `r fontawesome::fa("rainbow", fill = "#05859B", a11y = "sem")` rainbow parentheses
 
 <span style = 'font-size: 75%;'>*Soft wrap long lines* to make all code/text visible, even on a small window. Enable *rainbow parentheses* to easily identify matching opening/closing parentheses.</span>
 
@@ -409,7 +439,7 @@ knitr::include_graphics("media/pics/rainbow_wrap.png")
 ]
 
 ---
-## Soft wrap long lines & rainbow parentheses
+## Soft wrap long lines & `r fontawesome::fa("rainbow", fill = "#05859B", a11y = "sem")` rainbow parentheses
 
 <span style = 'font-size: 75%;'>Enable soft wrap and rainbow parentheses by choosing **Code** -> **Soft Wrap Long Lines** and **Rainbow parentheses** from the top menu bar.</span>
 
@@ -420,7 +450,7 @@ knitr::include_graphics("media/pics/enable_rainbow_wrap.png")
 ]
 
 ---
-## Collapsable Code Sections
+## Code folding
 
 ---
 ## Open multiple RStudio sessions at the same time
@@ -434,7 +464,7 @@ knitr::include_graphics("media/pics/new_session.png")
 ]
 
 ---
-## Change console output limit
+## `r fontawesome::fa("stop-circle", fill = "#05859B", a11y = "sem")` Change console output limit
 
 <span style = 'font-size: 75%;'>Change the console output limit by choosing **Tools** -> **Global Options** -> **Console** -> check the box next to **Limit Visible Console Output** and update the value in the **Limit output line length to:**</span>
 
