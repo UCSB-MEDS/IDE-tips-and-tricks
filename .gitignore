@@ -39,5 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 # ignore this stuff
-/media/mp4/*
+#/media/mp4/*
 
