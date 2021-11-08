@@ -220,12 +220,14 @@ Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#93C6C2", a11y 
 ```{r echo = FALSE, out.width = '70%'}
 # knitr::include_graphics("media/gif/tabs.gif")
 ```
-<iframe width="700" height="415" src="media/mp4/tabs.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="365" src="media/mp4/tabs.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 .center[
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `tab`</span>   
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `tab`</span> 
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `tab`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Close tab: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `W`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open a new tab (browser): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `T`</span>    
 ]
 
 ---
@@ -258,6 +260,18 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 .center[
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected line(s): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`return`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`enter`</span>  
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run line(s) without moving cursor: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`return`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`enter`</span>
+]
+
+---
+## `r fontawesome::fa("redo", fill = "#05859B", a11y = "sem")` Access previously executed lines of code
+
+.center[
+<iframe width="650" height="365" src="media/mp4/access_prev_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.center[
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move cursor into the console and use the `up` and `down` arrow keys to cycle between previously executed code in chronological order</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Pull up list a of previously executed commands: First move cursor to console, then (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `control` + `up arrow`</span>
 ]
 
 ---
@@ -340,25 +354,23 @@ my_2021_dates <- c(
   "2021-01-02"
   "2021-01-03"
   "2021-01-04"
-  "2021-01-05"
-  "2021-01-06"
-  "2021-01-07"
 )
 ```
 
 ---
-## `r fontawesome::fa("align-left", fill = "#05859B", a11y = "sem")` Align messy code (reformat code)
+## `r fontawesome::fa("align-left", fill = "#05859B", a11y = "sem")` Align messy code
 
 .center[
 <iframe width="650" height="365" src="media/mp4/align_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 .center[
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Properly align oddly indented code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `A`</span>
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Fix indentation of selected code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `I`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Reformat selected code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `A`</span>
 ]
 
 ---
-## `r fontawesome::fa("compress-alt", fill = "#05859B", a11y = "sem")` Code snippets
+## `r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Code snippets
 
 <span style = 'font-size: 75%;'>Code snippets allow you to more quickly produce code by typing an abbreviated version of a function, which RStudio then auto-completes and/or fills in placeholders for the necessary arguments. You can check out all default code snippets by navigating to **Tools** -> **Global Options** -> **Code** -> **Edit Snippets...**. To use a snippet, type its *keyword* (you see a pop up that denotes the keyword as a `{snippet}`), then *tab* to auto-complete. Use the *tab* key to move across and fill in any text placeholders.</span>
 
@@ -367,7 +379,7 @@ my_2021_dates <- c(
 ]
 
 ---
-## `r fontawesome::fa("compress-alt", fill = "#05859B", a11y = "sem")` Adding custom code snippets
+## `r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Adding custom code snippets
 
 <span style = 'font-size:75%;'>You can create your own custom code snippets by adding them to the **Edit Snippets...** editor. The structure of a snippet is as follows:</span>
 
@@ -553,13 +565,16 @@ knitr::include_graphics("media/pics/rstudio_ide2.png")
 ---
 ## `r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help 
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  https://support.apple.com/en-us/HT201236</span>
+<span style = 'font-size: 85%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  https://support.apple.com/en-us/HT201236</span>
 
-<span style = 'font-size: 80%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec</span>
+<span style = 'font-size: 85%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec</span>
 
+<span style = 'font-size: 85%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part I): https://appsilon.com/r-studio-shortcuts-and-tips-2/
+
+<span style = 'font-size: 85%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part II): https://appsilon.com/r-studio-shortcuts-and-tips-part-2/
 
 ---
-## `r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks!
+## `r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks
 
 `r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)
 
