@@ -4,6 +4,6 @@
 **Date:** November 15, 2021  
 **Length:** 1 hour
 
-As environmental data scientists, we spend *a lot* of time in RStudio. Taking some time to learn (a) the many ways to customize your RStudio IDE (integrated development environment) and (b) the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!
+As environmental data scientists, we spend *a lot* of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (**I**ntegrated **D**evelopment **E**nvironment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!
 
 Presentation slides are available [here](https://ucsb-meds.github.io/R-tips-and-tricks/).
