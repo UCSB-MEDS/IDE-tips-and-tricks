@@ -514,6 +514,21 @@ knitr::include_graphics("media/pics/new_session.png")
 ]
 
 ---
+## `r fontawesome::fa("arrow-up", fill = "#05859B", a11y = "sem")` Jump to the top-level RProject folder
+
+<span style = 'font-size: 75%;'>You can easily jump back to your RProject's root directory if you have navigated away from it by clicking on the R hex icon in the top right corner of RStudio's Files pane.</span>
+
+.center[
+```{r, echo = FALSE, eval = TRUE, out.width = '75%'}
+knitr::include_graphics("media/pics/top_level_folder.png")
+```
+]
+
+.footer[
+<span style = 'font-size: 75%;'>Thanks for the [tweet tip](https://twitter.com/JennyBryan/status/1460296605186228224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1460296605186228224%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=file%3A%2F%2F%2FUsers%2Fsamanthacsik%2Fgit%2FR-tips-and-tricks%2Findex.html1) [@JennyBryan](https://twitter.com/JennyBryan)!</span>
+]
+
+---
 ## `r fontawesome::fa("stop-circle", fill = "#05859B", a11y = "sem")` Change console output limit
 
 <span style = 'font-size: 75%;'>Change the console output limit by choosing **Tools** -> **Global Options** -> **Console** -> check the box next to **Limit Visible Console Output** and update the value in the **Limit output line length to:**</span>
