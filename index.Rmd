@@ -33,7 +33,7 @@ knitr::opts_chunk$set(
 ```{r metathis, echo=FALSE}
 library(metathis)
 meta() %>%
-  meta_name("github-repo" = "https://github.com/UCSB-MEDS/R-tips-and-tricks") %>%
+  meta_name("github-repo" = "UCSB-MEDS/R-tips-and-tricks") %>%
   meta_social(
     title = "RStudio Tips & Tricks",
     description = paste(
