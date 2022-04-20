@@ -29,33 +29,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-```{r metathis, echo=FALSE}
-library(metathis)
-meta() %>%
-  meta_name("github-repo" = "UCSB-MEDS/R-tips-and-tricks") %>%
-  meta_social(
-    title = "RStudio Tips & Tricks",
-    description = paste(
-      "a workshop on RStudio IDE tips & tricks and other keyboard shortcuts"
-    ),
-    url = "https://ucsb-meds.github.io/R-tips-and-tricks/#1",
-    image = "https://ucsb-meds.github.io/teach-me-how-to-google/#1/social-card.png",
-    image_alt = paste(
-      "The title of the slide reads: 'Keyboard shortcuts...are they really worth my time?' and is followed by four bullets",
-      "The first bullet: 'Because both your hands remain on the keyboard, shortcuts are often faster than a mouse'",
-      "The second bullet: 'Yes, learning shortcuts does take some patience and practice, but it will save you time in the long run'",
-      "The third bullet: 'Good news: lots keyboard shortcuts are universal, meaning you can use them across a variety applications'",
-      "The fourth bullet: 'Looking for more shortcuts? Clicking on or hovering over menu items/buttons in many applications will reveal the corresponding keyboard shortcut'"
-    ),
-    og_type = "website",
-    og_author = "Samantha Csik",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@SamanthaCsik",
-    twitter_site = "@SamanthaCsik"
-  )
-```
-
 ```{r xaringanExtra-share-again, echo=FALSE}
 xaringanExtra::use_share_again()
 ```
