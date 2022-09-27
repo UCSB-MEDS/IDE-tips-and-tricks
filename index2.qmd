@@ -63,9 +63,10 @@ format:
 ## {#RStudio-shortcuts data-menu-title="RStudio-specific shortcuts" background=#053660} 
 
 <div class = "vertical-center">
-<center>[RStudio-specific shortcuts]{.custom-title}</center>
 
-<br>
+<center><img src="media/pics/RStudio-logo.png" alt="" style="display: inline-block; margin: 5; position: relative; top: 47px; width:320px;height:110px;"/> shortcuts</center>
+
+<br> 
 
 <center>[*Quickly write/edit code and navigate the RStudio IDE using these shortcuts*]{.custom-subtitle3}</center>
 </div>
