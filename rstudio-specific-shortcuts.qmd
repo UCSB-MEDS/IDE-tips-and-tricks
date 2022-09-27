@@ -23,11 +23,64 @@ format:
 
 [`r fontawesome::fa("code", fill = "#05859B", a11y = "sem")` Run lines of code]{.slide-title}
 
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/run_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected line(s): `command` + `return`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run line(s) without moving cursor: `option` + `return`</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected line(s): `control` + `enter`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run line(s) without moving cursor: `alt` + `enter`</span>
+:::
+::::
+:::
+
 ---
 
 ## {#access-previous-code data-menu-title="Access previous code"}
 
 [`r fontawesome::fa("redo", fill = "#05859B", a11y = "sem")` Access previously executed lines of code]{.slide-title}
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/access_prev_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move cursor into the console and use the `up` and `down` arrow keys to cycle between previously executed code in chronological order</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Pull up list a of previously executed commands: First move cursor to console, then `command` + `up arrow`</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move cursor into the console and use the `up` and `down` arrow keys to cycle between previously executed code in chronological order</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Pull up list a of previously executed commands: First move cursor to console, then `control` + `up arrow`</span>
+:::
+::::
+:::
 
 ---
 
@@ -35,11 +88,67 @@ format:
 
 [`r fontawesome::fa("file-code", fill = "#05859B", a11y = "sem")` Insert code chunk]{.slide-title}
 
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/insert_code_chunk.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert code chunk (into an RMarkdown file): `command` + `option` + `I`</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert code chunk (into an RMarkdown file): `control` + `Alt` + `I`</span>
+:::
+::::
+:::
+
 ---
 
 ## {#operators-comments data-menu-title="Operators & Commenting"}
 
 [`r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` Operators & `r fontawesome::fa("hashtag", fill = "#05859B", a11y = "sem")` Commenting Out Code]{.slide-title}
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/operators_comment.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`) or native pipe (`|>`): `control` + `shift` + `M`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): `option` + `-`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` comment/uncomment code: `command` + `shift` + `C`</span> 
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe (`%>%`) or native pipe (`|>`): `control` + `shift` + `M`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): `Alt` + `-`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` comment/uncomment code: `control` + `shift` + `C`</span> 
+:::
+::::
+:::
 
 ---
 
@@ -47,11 +156,68 @@ format:
 
 [`r fontawesome::fa("file-alt", fill = "#05859B", a11y = "sem")` Look up function documentation]{.slide-title}
 
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/F1_function.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Look up function documentation for a highlighted function: `Fn` + `F1`</span> 
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Look up function documentation for a highlighted function: `Fn` + `F1`</span> 
+:::
+::::
+<br>
+<br>
+<span style = 'font-size: 45%; line-height: 10px; color: #6F6F6F'>Windows users: If your `Fn` key is not working, look for an `Fn lock` button (often shared with the `Esc` key). Press `Fn` + `Fn lock` to unlock the F row. Then use `Fn` + `F1` to look up function documentation.</span> 
+:::
+
 ---
 
 ## {#fxn-creation data-menu-title="Creating functions"}
 
 [Function creation shortcut (extract function)]{.slide-title}
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/function_creation.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Quickly create a function from existing arguments: `control` + `option` + `X`</span> 
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Quickly create a function from existing arguments: `control` + `Alt` + `X`</span>
+:::
+::::
+:::
 
 ---
 
@@ -59,11 +225,80 @@ format:
 
 [Variable creation shortcut (extract variable)]{.slide-title}
 
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/extract_variable.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Quickly assign an object to a variable name: `control` + `option` + `V`</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Quickly assign an object to a variable name: `control` + `Alt` + `V`</span>
+:::
+::::
+:::
+
 ---
 
 ## {#multi-line-cursor data-menu-title="Multi-line cursor"}
 
 [`r fontawesome::fa("i-cursor", fill = "#05859B", a11y = "sem")` Multi-line cursor]{.slide-title}
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/multiple_cursors.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Hold `option` + drag in the direction you want to stretch your cursor</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Hold `Alt` + drag in the direction you want to stretch your cursor</span>
+:::
+::::
+:::
+
+::: {.notes}
+```{r}
+#| eval: false
+#| echo: false
+
+# saving this for live coding example
+my_2021_dates <- c(
+  "2021-01-01"
+  "2021-01-02"
+  "2021-01-03"
+  "2021-01-04"
+)
+```
+:::
 
 ---
 
@@ -71,9 +306,43 @@ format:
 
 [`r fontawesome::fa("align-left", fill = "#05859B", a11y = "sem")` Align messy code]{.slide-title}
 
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/align_code.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Fix indentation of selected code: `command` + `I`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Reformat selected code: `command` + `shift` + `A`</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Fix indentation of selected code: `control` + `I`</span>  
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Reformat selected code: `control` + `shift` + `A`</span>
+:::
+::::
+:::
+
 ---
 
 ## {#snippets data-menu-title="Snippets"}
+
+[`r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Code snippets]{.slide-title}
+
+<span style = 'font-size: 50%;'>Code snippets allow you to more quickly produce code by typing an abbreviated version of a function, which RStudio then auto-completes and/or fills in placeholders for the necessary arguments. You can check out all default code snippets by navigating to **Tools** > **Global Options** > **Code** > **Edit Snippets...**. To use a snippet, type its *keyword* (you see a pop up that denotes the keyword as a `{snippet}`), then *tab* to auto-complete. Use the *tab* key to move across and fill in any text placeholders.</span>
+
+<center><iframe width="700" height="415" src="media/mp4/snippets.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 
 [`r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Code snippets]{.slide-title}
 
@@ -83,10 +352,98 @@ format:
 
 [`r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Adding custom code snippets]{.slide-title}
 
+<span style = 'font-size:60%;'>You can create your own custom code snippets by adding them to the **Edit Snippets...** editor. The structure of a snippet is as follows:</span>
+
+```{r}
+#| eval: false
+#| echo: true
+snippet keyword
+  function(${1:input1}, ${2:input2}, ${N:inputN})
+```
+
+<span style = 'font-size:60%;'>`$` denotes where the cursor should jump after completing each section of a snippet. Read more about how to customize code snippets [here](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?version=1.4.1103&mode=desktop).</span>
+
+<center><iframe width="550" height="290" src="media/mp4/custom_snippet.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center?
+
+---
+
+## {#max-panes data-menu-title="Maximize panes"}
+
+[`r fontawesome::fa("window-minimize", fill = "#05859B", a11y = "sem")``r fontawesome::fa("window-maximize", fill = "#05859B", a11y = "sem")` Maximize panes]{.slide-title}
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/RStudio_window_panes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize source editor (script): `control` + `shift` + `1`</span>   
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize console: `control` + `shift` + `2`</span>   
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize plot window: `control` + `shift` + `6`</span>   
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Return to four pane view: `control` + `shift` + `0`</span> 
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize source editor (script): `control` + `shift` + `1`</span>   
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize console: `control` + `shift` + `2`</span>   
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Maximize plot window: `control` + `shift` + `6`</span>   
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Return to four pane view: `control` + `shift` + `0`</span>
+:::
+::::
+:::
+
+<span style = 'font-size: 40%; color: #6F6F6F;'>Move your cursor to different panes (but not maximize that pane) by using the same key combinations as above sans `shift` (e.g. if my cursor is in the source editor and I would like to jump to the console, use `control` + `2`, then `control` + `1` to jump back to the source editor).</span>
+
 ---
 
 ## {#restart-R data-menu-title="Restart R"}
 
 [`r fontawesome::fa("power-off", fill = "#05859B", a11y = "sem")` Restart R]{.slide-title}
 
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/restartR.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Restart your R session: `control` + `shift` + (`Fn`) + `F10`</span>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Restart your R session: `control` + `shift` + (`Fn`) + `F10`</span>
+:::
+::::
+:::
+
 ---
+
+## {#top-level data-menu-title="Top-level project folder"}
+
+[`r fontawesome::fa("arrow-up", fill = "#05859B", a11y = "sem")` Jump to the top-level RProject folder]{.slide-title}
+
+<span style = 'font-size: 75%;'>You can easily jump back to your RProject's root directory if you have navigated away from it by clicking on the R hex icon in the top right corner of RStudio's Files pane (thanks for the [tweet tip](https://twitter.com/JennyBryan/status/1460296605186228224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1460296605186228224%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=file%3A%2F%2F%2FUsers%2Fsamanthacsik%2Fgit%2FR-tips-and-tricks%2Findex.html1) [@JennyBryan](https://twitter.com/JennyBryan)!).</span>
+
+<center><img src="media/pics/top_level_folder.png" alt="" width="700"/></center>
+
+
+

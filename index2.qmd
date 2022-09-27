@@ -75,3 +75,19 @@ format:
 
 {{< include rstudio-specific-shortcuts.qmd >}}
 
+---
+
+## {#RStudio-ide-customization data-menu-title="Customize your RStudio IDE" background=#053660} 
+
+<div class = "vertical-center">
+
+<center>Customize your RStudio IDE experience</center>
+
+<br> 
+
+<center>[The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#d2e3f3", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.]{.custom-subtitle3}</center>
+</div>
+
+---
+
+{{< include customize-rstudio-ide.qmd >}}
