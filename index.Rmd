@@ -108,7 +108,7 @@ knitr::include_graphics("media/pics/shortcutFoo.jpeg")
 ```
 ]
 
-<span style = 'font-size: 70%;'>Learn and practice shortcuts for all your favorite applications -- ranging from programming editors like RStudio and PyCharm to apps like Twitter, GitHub, and Slack. Start a new game at https://www.shortcutfoo.com/app/dojos.</span>
+<span style = 'font-size: 70%;'>Learn and practice shortcuts for all your favorite applications -- ranging from IDEs like RStudio and VSCode to apps like Twitter, GitHub, and Slack. Start a new game at https://www.shortcutfoo.com/app/dojos.</span>
 
 ---
 ## `r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac vs. `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`  Windows
@@ -297,7 +297,7 @@ knitr::include_graphics("media/pics/keyboard_shortcuts_ref.png")
 ]
 
 .center[
-<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `M`</span>  
+<span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` {magrittr} pipe operator (`%>%`) or native pipe (`|>`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` & `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `M`</span>  
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` assignment arrow (`<-`): (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`option`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`alt` + `-`</span>  
 <span style = 'font-size: 80%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` comment/uncomment code: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`)`command`/(`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`)`control` + `shift` + `C`</span> 
 ]
@@ -544,7 +544,7 @@ knitr::include_graphics("media/pics/console.png")
 ]
 
 ---
-## Set knitr code chunks options
+## Set knitr code chunks options (RMarkdown)
 
 <span style = 'font-size: 75%;'>Easily update knitr code chunk options (e.g. code chunk name, showing warnings and errors, figure sizes, chunk output type) by clicking on the gear icon in the top right corner of a code chunk.</span>
 
