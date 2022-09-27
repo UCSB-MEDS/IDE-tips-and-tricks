@@ -6,7 +6,6 @@ format:
     code-link: true
     highlight-style: a11y
     chalkboard: true
-    # logo: images/bren_meds_hex.png
     theme: 
       - meds_styles.scss
 ---
@@ -41,77 +40,11 @@ format:
 
 ---
 
-## {#worth-my-time data-menu-title="Are they worth my time??"}
-
-[Keyboard shortcuts...are they really worth my time?]{.slide-title} 
-
-. . .
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("keyboard", fill = "#05859B", a11y = "sem")` Because both your hands remain on the keyboard, shortcuts are often **faster** than a mouse</span>
-
-. . . 
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("clock", fill = "#05859B", a11y = "sem")` Yes, learning shortcuts *does* take some patience and practice, but it will **save you time** in the long run</span>
-
-. . . 
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("globe", fill = "#05859B", a11y = "sem")` Good news: lots keyboard shortcuts are **universal**, meaning you can use them across a variety applications</span>
-
-. . . 
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("mouse-pointer", fill = "#05859B", a11y = "sem")` Looking for more shortcuts? **Clicking on or hovering over** menu items/buttons in many applications will reveal the corresponding keyboard shortcut</span>
+{{< include /intro.qmd >}}
 
 ---
 
-## {#make-it-a-game data-menu-title="Make it a game"}
-
-[`r fontawesome::fa("gamepad", fill = "#05859B", a11y = "sem")` Make it a game]{.slide-title}
-
-> <span style = 'font-size: 50%;'>*[shortcutFoo](https://www.shortcutfoo.com/) was created by programmers for programmers in an attempt to make learning your editor fun, easy, and effective. Akin to the days of first learning how to type on a keyboard, shortcutFoo aims to help programmers accomplish more in less time and with fewer keystrokes.*</span>
-
-:::: {.columns} 
-
-::: {.column width="60%"}
-<center><img src="media/pics/shortcutFoo.jpeg" alt="The shortcut foo landing page." width="500"/></center>
-:::
-
-::: {.column width="40%"}
-<span style = 'font-size: 50%;'>Learn and practice shortcuts for all your favorite applications -- ranging from IDEs like RStudio and VSCode to apps like Twitter, GitHub, and Slack. Start a new game at <https://www.shortcutfoo.com/app/dojos.></span>
-:::
-
-::::
-
----
-
-## {#mac-windows data-menu-title="Mac vs. Windows"}
-
-[`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac vs. `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`  Windows]{.slide-title}
-
-<span style = 'font-size: 58%;'>Keyboard shortcuts typically involve pressing two or more keys in a specific order. Most times, the key combos include at least one of the following: control, option, command, alt.</span>
-
-:::: {.columns}
-
-::: {.column width="50%"}
-<center><img src="media/pics/mac_basics.jpeg" alt="" width="350"/></center>
-
-<center><span style = 'font-size: 52%;'>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Macs use **control**, **option**, and **command** keys</span></center>
-:::
-
-::: {.column width="50%"}
-<center><img src="media/pics/windows_basics.jpeg" alt="" width="350"/></center>
-
-<center><span style = 'font-size: 55%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` Windows machines use the **ctrl** (Control) and **alt** keys</span></center>
-:::
-
-::::
-
-<br>
-
-<center><span style = 'font-size: 45%; color: #6F6F6F'>Image source: <https://edu.gcfglobal.org/en/techsavvy/keyboard-shortcuts/1/></span></center>
-
----
-
-## {#general-shortcuts data-menu-title="General Keyboard Shortcuts" background=#05859B} 
+## {#general-shortcuts data-menu-title="General Keyboard Shortcuts" background=#053660} 
 
 <div class = "vertical-center">
 <center>[General keyboard shortcuts]{.custom-title}</center>
@@ -123,37 +56,11 @@ format:
 
 ---
 
-## {#copy-cut-past-undo-redo data-menu-title="Copy/Cut, Past, Undo/Redo"}
-
-[`r fontawesome::fa("copy", fill = "#05859B", a11y = "sem")` Copy/Cut, Paste, Undo/Redo]{.slide-title}
+{{< include /general-shortcuts.qmd >}}
 
 ---
 
-## {#find-save data-menu-title="Find & Save"}
-
-[`r fontawesome::fa("search", fill = "#05859B", a11y = "sem")` Find & `r fontawesome::fa("save", fill = "#05859B", a11y = "sem")` Save]{.slide-title}
-
----
-
-## {#select-text data-menu-title="Select Text"}
-
-[`r fontawesome::fa("highlighter", fill = "#05859B", a11y = "sem")` Select Text ]{.slide-title}
-
----
-
-## {#jump-around-lines data-menu-title="Jump around lines"}
-
-[`r fontawesome::fa("step-forward", fill = "#05859B", a11y = "sem")` Jump to the beginning/end of lines]{.slide-title}
-
----
-
-## {#changing-tabs data-menu-title="Changing tabs"}
-
-[`r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` `r fontawesome::fa("arrow-right", fill = "#05859B", a11y = "sem")` Changing tabs]{.slide-title}
-
----
-
-## {#RStudio-shortcuts data-menu-title="RStudio-specific shortcuts" background=#05859B} 
+## {#RStudio-shortcuts data-menu-title="RStudio-specific shortcuts" background=#053660} 
 
 <div class = "vertical-center">
 <center>[RStudio-specific shortcuts]{.custom-title}</center>
@@ -163,66 +70,7 @@ format:
 <center>[*Quickly write/edit code and navigate the RStudio IDE using these shortcuts*]{.custom-subtitle3}</center>
 </div>
 
-
 ---
 
-## {#o data-menu-title=""}
+{{< include rstudio-specific-shortcuts.qmd >}}
 
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-
-## {# data-menu-title=""}
-
-[]{.slide-title}
-
----
-::: {.panel-tabset}
-
-## one
-
-## two
-
-:::

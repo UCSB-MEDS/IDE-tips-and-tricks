@@ -1,0 +1,92 @@
+---
+format: 
+  revealjs:
+    preview-links: auto
+    code-link: true
+    highlight-style: a11y
+    chalkboard: true
+    theme: 
+      - meds_styles.scss
+---
+
+## {#RStudio-shortcut-ref data-menu-title="RStudio shortcut reference guide"}
+
+[Access the RStudio Keyboard Shortcut Quick Reference Guide]{.slide-title}
+
+<center><img src="media/pics/keyboard_shortcuts_ref.png" alt="" width="700"/></center>
+
+<center><span style = 'font-size: 55%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Access the RStudio Keyboard Shortcut Quick Reference: (`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")`) `option`/ (`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`) `Alt` + `shift` + `K`</span></center>
+
+---
+
+## {#run-lines data-menu-title="Run lines of code"}
+
+[`r fontawesome::fa("code", fill = "#05859B", a11y = "sem")` Run lines of code]{.slide-title}
+
+---
+
+## {#access-previous-code data-menu-title="Access previous code"}
+
+[`r fontawesome::fa("redo", fill = "#05859B", a11y = "sem")` Access previously executed lines of code]{.slide-title}
+
+---
+
+## {#insert-code-chunk data-menu-title="Insert code chunk"}
+
+[`r fontawesome::fa("file-code", fill = "#05859B", a11y = "sem")` Insert code chunk]{.slide-title}
+
+---
+
+## {#operators-comments data-menu-title="Operators & Commenting"}
+
+[`r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` Operators & `r fontawesome::fa("hashtag", fill = "#05859B", a11y = "sem")` Commenting Out Code]{.slide-title}
+
+---
+
+## {#fxn-docs data-menu-title="Look up function documentation"}
+
+[`r fontawesome::fa("file-alt", fill = "#05859B", a11y = "sem")` Look up function documentation]{.slide-title}
+
+---
+
+## {#fxn-creation data-menu-title="Creating functions"}
+
+[Function creation shortcut (extract function)]{.slide-title}
+
+---
+
+## {#var-creation data-menu-title="Variable creation"}
+
+[Variable creation shortcut (extract variable)]{.slide-title}
+
+---
+
+## {#multi-line-cursor data-menu-title="Multi-line cursor"}
+
+[`r fontawesome::fa("i-cursor", fill = "#05859B", a11y = "sem")` Multi-line cursor]{.slide-title}
+
+---
+
+## {#align-code data-menu-title="Align messy code"}
+
+[`r fontawesome::fa("align-left", fill = "#05859B", a11y = "sem")` Align messy code]{.slide-title}
+
+---
+
+## {#snippets data-menu-title="Snippets"}
+
+[`r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Code snippets]{.slide-title}
+
+---
+
+## {#custom-snippets data-menu-title="Custom snippets"}
+
+[`r fontawesome::fa("cut", fill = "#05859B", a11y = "sem")` Adding custom code snippets]{.slide-title}
+
+---
+
+## {#restart-R data-menu-title="Restart R"}
+
+[`r fontawesome::fa("power-off", fill = "#05859B", a11y = "sem")` Restart R]{.slide-title}
+
+---
