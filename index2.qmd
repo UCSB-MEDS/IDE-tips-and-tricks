@@ -91,3 +91,37 @@ format:
 ---
 
 {{< include customize-rstudio-ide.qmd >}}
+
+---
+
+## {#more-helpl data-menu-title="More help"}
+
+[`r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help]{.slide-title}
+
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  <https://support.apple.com/en-us/HT201236></span>
+
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: <https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec></span>
+
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part I): <https://appsilon.com/r-studio-shortcuts-and-tips-2/></span>
+
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part II): <https://appsilon.com/r-studio-shortcuts-and-tips-part-2/></span>
+
+[`r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks]{.slide-title}
+
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)</span>
+
+<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rfunctionaday](https://twitter.com/rfunctionaday)</span>
+
+---
+
+<center>[Happy typing!]{.slide-title}</center>
+
+<br>
+
+<center><img src="media/kermit.gif" alt="" width="700"/></center>
+
+::: aside
+<center>This is a Quarto Presentation. To learn more, visit <https://quarto.org>.</center>
+
+<center><span style = 'font-size: 60%;'>*If you see mistakes or want to suggest changes, please create an [issue](https://github.com/UCSB-MEDS/R-tips-and-tricks/issues) on the source repository.*</span></center>
+:::
