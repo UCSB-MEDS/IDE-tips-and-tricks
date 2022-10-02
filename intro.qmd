@@ -15,19 +15,19 @@ format:
 
 . . .
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("keyboard", fill = "#05859B", a11y = "sem")` Because both your hands remain on the keyboard, shortcuts are often **faster** than a mouse</span>
+<div class = body-text>`r fontawesome::fa("keyboard", fill = "#05859B", a11y = "sem")` Because both your hands remain on the keyboard, shortcuts are often **faster** than a mouse</div>
 
 . . . 
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("clock", fill = "#05859B", a11y = "sem")` Yes, learning shortcuts *does* take some patience and practice, but it will **save you time** in the long run</span>
+<div class = body-text>`r fontawesome::fa("clock", fill = "#05859B", a11y = "sem")` Yes, learning shortcuts *does* take some patience and practice, but it will **save you time** in the long run</div>
 
 . . . 
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("globe", fill = "#05859B", a11y = "sem")` Good news: lots keyboard shortcuts are **universal**, meaning you can use them across a variety applications</span>
+<div class = body-text>`r fontawesome::fa("globe", fill = "#05859B", a11y = "sem")` Good news: lots keyboard shortcuts are **universal**, meaning you can use them across a variety applications</div>
 
 . . . 
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("mouse-pointer", fill = "#05859B", a11y = "sem")` Looking for more shortcuts? **Clicking on or hovering over** menu items/buttons in many applications will reveal the corresponding keyboard shortcut</span>
+<div class = body-text>`r fontawesome::fa("mouse-pointer", fill = "#05859B", a11y = "sem")` Looking for more shortcuts? **Clicking on or hovering over** menu items/buttons in many applications will reveal the corresponding keyboard shortcut</div>
 
 ---
 
@@ -35,7 +35,7 @@ format:
 
 [`r fontawesome::fa("gamepad", fill = "#05859B", a11y = "sem")` Make it a game]{.slide-title}
 
-> <span style = 'font-size: 50%;'>*[shortcutFoo](https://www.shortcutfoo.com/) was created by programmers for programmers in an attempt to make learning your editor fun, easy, and effective. Akin to the days of first learning how to type on a keyboard, shortcutFoo aims to help programmers accomplish more in less time and with fewer keystrokes.*</span>
+> <div class = body-text>*[shortcutFoo](https://www.shortcutfoo.com/) was created by programmers for programmers in an attempt to make learning your editor fun, easy, and effective. Akin to the days of first learning how to type on a keyboard, shortcutFoo aims to help programmers accomplish more in less time and with fewer keystrokes.*</div>
 
 :::: {.columns} 
 
@@ -44,7 +44,8 @@ format:
 :::
 
 ::: {.column width="40%"}
-<span style = 'font-size: 50%;'>Learn and practice shortcuts for all your favorite applications -- ranging from IDEs like RStudio and VSCode to apps like Twitter, GitHub, and Slack. Start a new game at <https://www.shortcutfoo.com/app/dojos.></span>
+<br>
+<div class = body-text>Learn and practice shortcuts for all your favorite applications -- ranging from IDEs like RStudio and VSCode to apps like Twitter, GitHub, and Slack. Start a new game [here](https://www.shortcutfoo.com/app/dojos).</div>
 :::
 
 ::::
@@ -53,26 +54,26 @@ format:
 
 ## {#mac-windows data-menu-title="Mac vs. Windows"}
 
-[`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac vs. `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`  Windows]{.slide-title}
-
-<span style = 'font-size: 58%;'>Keyboard shortcuts typically involve pressing two or more keys in a specific order. Most times, the key combos include at least one of the following: control, option, command, alt.</span>
+<div class = slide-title>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Mac vs. `r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")`  Windows</div>
+<br>
+<div class = body-text>Keyboard shortcuts typically involve pressing two or more keys in a specific order. Most times, the key combos include at least one of the following: control, option, command, alt.</div>
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-<center><img src="media/pics/mac_basics.jpeg" alt="" width="350"/></center>
+<center><img src="media/pics/mac_basics.jpeg" alt="" width="380"/></center>
 
-<center><span style = 'font-size: 52%;'>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Macs use **control**, **option**, and **command** keys</span></center>
+<center><div class = caption-text>`r fontawesome::fa("apple", fill = "#05859B", a11y = "sem")` Macs use **control**, **option**, and **command** keys</div></center>
 :::
 
 ::: {.column width="50%"}
-<center><img src="media/pics/windows_basics.jpeg" alt="" width="350"/></center>
+<center><img src="media/pics/windows_basics.jpeg" alt="" width="380"/></center>
 
-<center><span style = 'font-size: 55%;'>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` Windows machines use the **ctrl** (Control) and **alt** keys</span></center>
+<center><div class = caption-text>`r fontawesome::fa("windows", fill = "#05859B", a11y = "sem")` Windows machines use the **ctrl** (Control) and **alt** keys</div></center>
 :::
 
 ::::
 
 <br>
 
-<center><span style = 'font-size: 45%; color: #6F6F6F'>Image source: <https://edu.gcfglobal.org/en/techsavvy/keyboard-shortcuts/1/></span></center>
+<center><center><div class = caption-text><span style = 'color: #6F6F6F'>Image source: <https://edu.gcfglobal.org/en/techsavvy/keyboard-shortcuts/1/></span></div></center>

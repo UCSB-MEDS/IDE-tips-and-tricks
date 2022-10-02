@@ -40,27 +40,28 @@ format:
 
 ---
 
-{{< include /intro.qmd >}}
+{{< include intro.qmd >}}
 
 ---
 
-## {#general-shortcuts data-menu-title="General Keyboard Shortcuts" background=#053660} 
+## {#general-shortcuts data-menu-title="~General Keyboard Shortcuts~" background=#053660} 
 
 <div class = "vertical-center">
-<center>[General keyboard shortcuts]{.custom-title}</center>
+
+<center><div class="custom-title2">General keyboard shortcuts</div></center>
 
 <br>
 
-<center>[*Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#d2e3f3", a11y = "sem")` across lots of your favorite applications with the stroke of a few keys*]{.custom-subtitle3}</center>
+<center><div class="custom-subtitle3">*Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#d2e3f3", a11y = "sem")` across lots of your favorite applications with the stroke of a few keys*</div></center>
 </div>
 
 ---
 
-{{< include /general-shortcuts.qmd >}}
+{{< include general-shortcuts.qmd >}}
 
 ---
 
-## {#RStudio-shortcuts data-menu-title="RStudio-specific shortcuts" background=#053660} 
+## {#RStudio-shortcuts data-menu-title="~RStudio-specific shortcuts~" background=#053660} 
 
 <div class = "vertical-center">
 
@@ -68,7 +69,8 @@ format:
 
 <br> 
 
-<center>[*Quickly write/edit code and navigate the RStudio IDE using these shortcuts*]{.custom-subtitle3}</center>
+<center><div class="custom-subtitle3">*Quickly write/edit code and navigate the RStudio IDE using these shortcuts*</div></center>
+
 </div>
 
 ---
@@ -77,15 +79,16 @@ format:
 
 ---
 
-## {#RStudio-ide-customization data-menu-title="Customize your RStudio IDE" background=#053660} 
+## {#RStudio-ide-customization data-menu-title="~Customize your RStudio IDE~" background=#053660} 
 
 <div class = "vertical-center">
 
-<center>Customize your RStudio IDE experience</center>
+<center><div class="custom-subtitle2">Customize your RStudio IDE experience</div></center>
 
 <br> 
 
-<center>[The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#d2e3f3", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.]{.custom-subtitle3}</center>
+<center><div class="custom-subtitle3">*The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#d2e3f3", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.*</div></center>
+
 </div>
 
 ---
@@ -94,27 +97,46 @@ format:
 
 ---
 
-## {#more-helpl data-menu-title="More help"}
+## {#VSCode-shortcuts data-menu-title="~VSCode-specific shortcuts~" background=#053660} 
 
-[`r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help]{.slide-title}
+<div class = "vertical-center">
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  <https://support.apple.com/en-us/HT201236></span>
+<center><img src="media/pics/VSCode_logo.png" alt="" style="display: inline-block; margin: 5; position: relative; top: 47px; width:340px;height:150px;"/> shortcuts & customization tips</center>
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: <https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec></span>
+<br> 
 
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part I): <https://appsilon.com/r-studio-shortcuts-and-tips-2/></span>
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part II): <https://appsilon.com/r-studio-shortcuts-and-tips-part-2/></span>
-
-[`r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks]{.slide-title}
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)</span>
-
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rfunctionaday](https://twitter.com/rfunctionaday)</span>
+<center><div class="custom-subtitle3">*VS Code is a versatile IDE that supports many different languages. Here are just a few helpful tips to get you going.*</div></center>
+</div>
 
 ---
 
-<center>[Happy typing!]{.slide-title}</center>
+#{{< include VSCode.qmd >}}
+
+---
+
+## {#more-help data-menu-title="More help"}
+
+<div class="slide-title">`r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help</div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  <https://support.apple.com/en-us/HT201236></div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: <https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec></div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part I): <https://appsilon.com/r-studio-shortcuts-and-tips-2/></div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part II): <https://appsilon.com/r-studio-shortcuts-and-tips-part-2/></div>
+
+<div class="slide-title">`r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks</div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)</div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rfunctionaday](https://twitter.com/rfunctionaday)</div>
+
+---
+
+## {#TheEnd data-menu-title="~Happy Typing!~"}
+
+<center><div class="slide-title">Happy typing!</div></center>
 
 <br>
 

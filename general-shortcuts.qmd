@@ -9,10 +9,9 @@ format:
       - meds_styles.scss
 ---
 
-
 ## {#copy-cut-past-undo-redo data-menu-title="Copy/Cut, Past, Undo/Redo"}
 
-[`r fontawesome::fa("copy", fill = "#05859B", a11y = "sem")` Copy/Cut, Paste, Undo/Redo]{.slide-title}
+<div class = slide-title>`r fontawesome::fa("copy", fill = "#05859B", a11y = "sem")` Copy/Cut, Paste, Undo/Redo</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
@@ -23,10 +22,11 @@ format:
 :::
 ::: {.column width="50%"}
 <br>
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy: `command` + `C`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut: `command` + `X`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: `command` + `V`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  `command` + `Z`</span>  
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy: `command` + `C`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut: `command` + `X`</div>   
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: `command` + `V`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  `command` + `Z`</div>
 :::
 ::::
 
@@ -36,10 +36,12 @@ format:
 iframe here
 :::
 ::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy: `control` + `C`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut: `control` + `X`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: `control` + `V`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  `control` + `Z`</span>  
+<br>
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` copy: `control` + `C`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` cut: `control` + `X`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` paste: `control` + `V`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` undo:  `control` + `Z`</div>  
 :::
 ::::
 :::
@@ -48,7 +50,7 @@ iframe here
 
 ## {#find-save data-menu-title="Find & Save"}
 
-[`r fontawesome::fa("search", fill = "#05859B", a11y = "sem")` Find & `r fontawesome::fa("save", fill = "#05859B", a11y = "sem")` Save]{.slide-title}
+<div class = slide-title>`r fontawesome::fa("search", fill = "#05859B", a11y = "sem")` Find & `r fontawesome::fa("save", fill = "#05859B", a11y = "sem")` Save</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
@@ -60,74 +62,9 @@ iframe here
 ::: {.column width="50%"}
 <br>
 <br>
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: `command` + `F`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: `command` + `S`</span>  
-:::
-::::
-
-## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
-:::: {.columns}
-::: {.column width="50%"}
-iframe here
-:::
-::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: `control` + `F`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: `control` + `S`</span>  
-:::
-::::
-:::
-
----
-
-## {#select-text data-menu-title="Select Text"}
-
-[`r fontawesome::fa("highlighter", fill = "#05859B", a11y = "sem")` Select Text ]{.slide-title}
-
-::: {.panel-tabset}
-## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
-:::: {.columns}
-::: {.column width="50%"}
 <br>
-<iframe width="550" height="290" src="media/mp4/select_text.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: `command` + `A`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything in a particular direction: `command` + `shift` + `arrow key`</span>   
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything within a set of closed `( )`: `control` + `shift` + `E`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character: `shift` + `arrow key`</span>   
-:::
-::::
-
-## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
-:::: {.columns}
-::: {.column width="50%"}
-iframe here
-:::
-::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: `command` + `A`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character: `shift` + `arrow key`</span> 
-:::
-::::
-:::
-
----
-
-## {#jump-around-lines data-menu-title="Jump around lines"}
-
-[`r fontawesome::fa("step-forward", fill = "#05859B", a11y = "sem")` Jump to the beginning/end of lines]{.slide-title}
-
-::: {.panel-tabset}
-## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
-:::: {.columns}
-::: {.column width="50%"}
-<br>
-<iframe width="550" height="290" src="media/mp4/jump_beginning_end.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: `command`+ `right arrow`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: `command` + `left arrow`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time `option` + `left/right arrow`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` **Bonus**: begin typing a function name and RStudio will suggest functions for auto-complete</span>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: `command` + `F`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: `command` + `S`</div>  
 :::
 ::::
 
@@ -137,10 +74,85 @@ iframe here
 iframe
 :::
 ::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: `Alt`+ `right arrow`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: `Alt` + `left arrow`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time `control` + `left/right arrow`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` **Bonus**: begin typing a function name and RStudio will suggest functions for auto-complete</span>
+<br>
+<br>
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` find: `control` + `F`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` save: `control` + `S`</div>  
+:::
+::::
+:::
+
+---
+
+## {#select-text data-menu-title="Select Text"}
+
+<div class = slide-title>`r fontawesome::fa("highlighter", fill = "#05859B", a11y = "sem")` Select Text</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/select_text.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: `command` + `A`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything in a particular direction: `command` + `shift` + `arrow key`</div>   
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select everything within a set of closed `( )`: `control` + `shift` + `E`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character: `shift` + `arrow key`</div>   
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe here
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select all: `command` + `A`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` select character-by-character: `shift` + `arrow key`</div> 
+:::
+::::
+:::
+
+---
+
+## {#jump-around-lines data-menu-title="Jump around lines"}
+
+<div class = slide-title>`r fontawesome::fa("step-forward", fill = "#05859B", a11y = "sem")` Jump to the beginning/end of lines</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<iframe width="550" height="290" src="media/mp4/jump_beginning_end.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+::: {.column width="50%"}
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: `command`+ `right arrow`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: `command` + `left arrow`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time `option` + `left/right arrow`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` **Bonus**: begin typing a function name and RStudio will suggest functions for auto-complete</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to beginning: `Alt`+ `right arrow`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump to end: `Alt` + `left arrow`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Jump one word at a time `control` + `left/right arrow`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` **Bonus**: begin typing a function name and RStudio will suggest functions for auto-complete</div>
 :::
 ::::
 :::
@@ -149,7 +161,7 @@ iframe
 
 ## {#changing-tabs data-menu-title="Changing tabs"}
 
-[`r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` `r fontawesome::fa("arrow-right", fill = "#05859B", a11y = "sem")` Changing tabs]{.slide-title}
+<div class = slide-title>`r fontawesome::fa("arrow-left", fill = "#05859B", a11y = "sem")` `r fontawesome::fa("arrow-right", fill = "#05859B", a11y = "sem")` Changing tabs</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
@@ -160,10 +172,10 @@ iframe
 :::
 ::: {.column width="50%"}
 <br>
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): `control` + `tab`</span>   
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): `control` + `shift` + `tab`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Close tab: `command` + `W`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open a new tab (browser): `command` + `T`</span>   
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): `control` + `tab`</div>   
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): `control` + `shift` + `tab`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Close tab: `command` + `W`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open a new tab (browser): `command` + `T`</div>   
 :::
 ::::
 
@@ -173,10 +185,11 @@ iframe
 iframe
 :::
 ::: {.column width="50%"}
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): `control` + `tab`</span>   
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): `control` + `shift` + `tab`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Close tab: `control` + `W`</span>  
-<span style = 'font-size: 60%;'>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open a new tab (browser): `control` + `T`</span>  
+<br>
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the right): `control` + `tab`</div>   
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Move tabs (to the left): `control` + `shift` + `tab`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Close tab: `control` + `W`</div>  
+<div class = body-text>`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open a new tab (browser): `control` + `T`</div>  
 :::
 ::::
 :::

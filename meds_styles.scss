@@ -19,12 +19,10 @@ $code-color: #900C3F;
 $code-bg: #F7F7F7;
 $code-block-font-size: 0.6em;
 $code-block-bg: #F0F3F5;
-$font-size-base: 0.3em; 
-
 
 /*-- scss:rules --*/
 
-.reveal .custom-title {
+.custom-title { //.reveal 
   font-family: $font-family-serif;
   color: #d2e3f3;
   font-size: 1.7em;
@@ -32,7 +30,7 @@ $font-size-base: 0.3em;
   left: 20px; 
 }
 
-.reveal .custom-subtitle {
+.custom-subtitle { //.reveal 
   font-family: $font-family-sans-serif;
   color: #d2e3f3;
   font-size: 1.2em;
@@ -41,7 +39,7 @@ $font-size-base: 0.3em;
   left: 20px; 
 }
 
-.reveal .custom-subtitle2 {
+.custom-subtitle2 { //.reveal 
   font-family: $font-family-sans-serif;
   color: #d2e3f3;
   font-size: 1em;
@@ -49,7 +47,7 @@ $font-size-base: 0.3em;
   left: 20px; 
 }
 
-.reveal .custom-subtitle3 {
+.custom-subtitle3 { //.reveal 
   font-family: $font-family-sans-serif;
   color: #d2e3f3;
   font-size: 0.8em;
@@ -57,11 +55,10 @@ $font-size-base: 0.3em;
   left: 20px; 
 }
 
-.reveal .title-footer {
+.title-footer { //.reveal 
   text-align: center !important;
   color: #d2e3f3;
   font-size: 0.4em !important;
-  //margin-left: 0em;
 }
 
 .slide-title {
@@ -71,8 +68,26 @@ $font-size-base: 0.3em;
   font-weight: 700;
 }
 
+.body-text {
+	font-size: 23px;
+	line-height: 1.7em;
+	margin-bottom: 1em;
+}
+
+.caption-text {
+  font-size: 19px;
+	line-height: 1.5em;
+}
+
+//.shortcut-list {
+ // font-size: 23px;
+ // line-height: 1.7em;
+ //	margin-bottom: 1.7em;
+// }
+
+// font weight not working
 strong {
-  font-weight: 900;
+  font-weight: bold;
   color: #047C90;
 }
 
@@ -82,5 +97,10 @@ strong {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+ .topbr {
+    display: block;
+    margin-top: 1em;
 }
 
