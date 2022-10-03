@@ -9,27 +9,121 @@ format:
       - meds_styles.scss
 ---
 
-## {#file-search data-menu-title="Edit & Command Modes"}
+## {#run-cells data-menu-title="Run cells"}
 
-<div class = "slide-title">Shortcuts for both *edit* and *command* modes</div>
+<div class = "slide-title">Run cells</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
 :::: {.columns}
 ::: {.column width="50%"}
+<br>
+<center><iframe width="550" height="290" src="media/mp4/Jupyter_run_cells.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected cell (either mode): `control` (or `command`) + `return`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected cell & move to next cell (either mode): `shift` + `return`</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
 iframe
 :::
 ::: {.column width="50%"}
-<div class = "body-text">Run selected cell: `control` (or `command`) + `return`</div>
-<div class = "body-text">Run selected cell & move to next cell: `shift` + `return`</div>
-<div class = "body-text">Change cell type to *Markdown*: `M`</div>
-<div class = "body-text">Change cell type to *Code*: `Y`</div>
-<div class = "body-text">Change from edit to command mode (green border): `esc`</div>
-<div class = "body-text">Change from command to edit mode (blue border): `esc`</div>
-<div class = "body-text">Delete cell: `DD` (command mode)
-<div class = "body-text">Select all: `command` + `A`</div>
-<div class = "body-text">Open command palette: `command` + `shift` + `P`</div>
-<div class = "body-text">Move cursor one word to right or left: `option` + right/left arrow</div>
+text
+:::
+::::
+:::
+
+---
+
+## {#change-modes-cell-types data-menu-title="Change modes & cell types"}
+
+<div class = "slide-title">Change modes, cell types, delete cells</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<center><iframe width="550" height="290" src="media/mp4/Jupyter_switchmodes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+:::
+::: {.column width="50%"}
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Change cell type to *Markdown* (command mode): `M`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Change cell type to *Code*: `Y` (command mode)</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Activate command mode: `esc`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Activate edit mode: `esc`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Delete cell (command mode): `DD`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Undo delete cell (command mode): `Z`</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+text
+:::
+::::
+:::
+
+---
+
+## {#add-select-cells data-menu-title="Adding & selecting cells"}
+
+<div class = "slide-title">Adding cells & selecting multiple cells</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<center><iframe width="550" height="290" src="media/mp4/Jupyter_addCells_selectCells.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Add cell above (command mode): `A`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Add cell below (command mode): `B`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Select multiple cells (command mode): `shift` + up/down arrow</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+text
+:::
+::::
+:::
+
+---
+
+## {#jupyter-command-palette data-menu-title="Jupyter Command Palette"}
+
+<div class = "slide-title">Open Command Palette</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<center><iframe width="550" height="290" src="media/mp4/Jupyter_commandPalette.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open command palette: `command` + `shift` + `P`</div>
 :::
 ::::
 

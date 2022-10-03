@@ -122,12 +122,14 @@ format:
 
 <br> 
 
-<center><div class="custom-subtitle3">*Jupyter Notebooks are popular for teaching Python and sharing code & prose together. Learning a few keyboard shortcuts can make writing code/markdown and executing cells much faster.*</div></center>
+<center><div class = "custom-subtitle3">*Jupyter Notebooks are popular for teaching Python and sharing code & prose together. Learning a few keyboard shortcuts can make writing code/markdown and executing/navigating cells much faster.*</div></center>
+
+<center><div class = "body-text topbr"><span style = 'color:#d2e3f3;'>*Note:* Jupyter Notebooks have two modes: *edit* (denoted by a green border around the cell) and *command* (denoted by a blue border around the cell). Some shortcuts apply to just *edit* or just *command* mode (and some are the same regardless).</span></div></center>
 </div>
 
 ---
 
-{{< include 6-JupyterNotebook.qmd}}
+{{< include 6-JupyterNotebook.qmd >}}
 
 ---
 
@@ -135,19 +137,21 @@ format:
 
 <div class="slide-title">`r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help</div>
 
-<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  <https://support.apple.com/en-us/HT201236></div>
+<div class="body-text topbr">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)</div>
 
-<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: <https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec></div>
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [Keyboard shortcuts in Windows](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)</div>
 
-<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part I): <https://appsilon.com/r-studio-shortcuts-and-tips-2/></div>
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [RStudio Shortcuts and Tips (Part I)](https://appsilon.com/r-studio-shortcuts-and-tips-2/), by Appsilon</div>
 
-<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part II): <https://appsilon.com/r-studio-shortcuts-and-tips-part-2/></div>
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [RStudio Shortcuts and Tips (Part II)](https://appsilon.com/r-studio-shortcuts-and-tips-part-2/), by Appsilon</div>
 
-<div class="slide-title">`r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks</div>
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [15 Useful VS Code Shortcuts to Boost Your Productivity](https://betterprogramming.pub/15-useful-vscode-shortcuts-to-boost-your-productivity-415de3cb1910), by Shubham Khatri</div>
 
-<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)</div>
+<div class="body-text">[Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings)</div>
 
-<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rfunctionaday](https://twitter.com/rfunctionaday)</div>
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [Jupyter Notebooks Shortcuts](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330), by Ventsislav Yordanov in Towards Data Science</div>
+
+<div class="body-text"></div>
 
 ---
 

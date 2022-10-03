@@ -44,7 +44,7 @@ iframe
 
 ---
 
-## {#command-palette data-menu-title="Command Palette"}
+## {#VSCode-command-palette data-menu-title="Command Palette"}
 
 <div class = "slide-title">`r fontawesome::fa("search-plus", fill = "#05859B", a11y = "sem")` Open the Command Palette</div>
 
