@@ -6,4 +6,4 @@
 
 As environmental data scientists, we spend *a lot* of time writing code in different IDEs (**I**ntegrated **D**evelopment **E**nvironments), like RStudio, VSCode, and Jupyter Notebooks via Anaconda Navigator. Taking some time to learn keyboard shortcuts (and customization tips) can make you a more efficient (and happier) hacker!
 
-Presentation slides are available [here](https://ucsb-meds.github.io/R-tips-and-tricks/).
+Presentation slides are available [here](https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide).
