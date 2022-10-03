@@ -1,9 +1,9 @@
-# RStudio Tips & Tricks (and other shortcuts to make you a more efficient coder)
+# IDE Tips & Tricks (and other shortcuts to make you a more efficient programmer)
 **Presenter:** Sam Csik   
 **Organization:** UCSB MEDS  
-**Date:** November 15, 2021  
-**Duration:** 1 hour
+**Date:** October 3, 2022  
+**Duration:** 2 hours
 
-As environmental data scientists, we spend *a lot* of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (**I**ntegrated **D**evelopment **E**nvironment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!
+As environmental data scientists, we spend *a lot* of time writing code in different IDEs (**I**ntegrated **D**evelopment **E**nvironments), like RStudio, VSCode, and Jupyter Notebooks via Anaconda Navigator. Taking some time to learn keyboard shortcuts (and customization tips) can make you a more efficient (and happier) hacker!
 
 Presentation slides are available [here](https://ucsb-meds.github.io/R-tips-and-tricks/).
