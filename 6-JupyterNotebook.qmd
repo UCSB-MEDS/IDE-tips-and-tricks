@@ -11,7 +11,7 @@ format:
 
 ## {#run-cells data-menu-title="Run cells"}
 
-<div class = "slide-title">Run cells</div>
+<div class = "slide-title">`r fontawesome::fa("play", fill = "#05859B", a11y = "sem")` Run cells</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
@@ -34,7 +34,10 @@ format:
 iframe
 :::
 ::: {.column width="50%"}
-text
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected cell (either mode): `control` + `enter`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Run selected cell & move to next cell (either mode): `shift` + `enter`</div>
 :::
 ::::
 :::
@@ -43,7 +46,7 @@ text
 
 ## {#change-modes-cell-types data-menu-title="Change modes & cell types"}
 
-<div class = "slide-title">Change modes, cell types, delete cells</div>
+<div class = "slide-title">`r fontawesome::fa("exchange-alt", fill = "#05859B", a11y = "sem")` Change modes, cell types, delete cells</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
@@ -68,16 +71,21 @@ text
 iframe
 :::
 ::: {.column width="50%"}
-text
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Change cell type to *Markdown* (command mode): `M`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Change cell type to *Code*: `Y` (command mode)</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Activate command mode: `esc`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Activate edit mode: `esc`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Delete cell (command mode): `DD`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Undo delete cell (command mode): `Z`</div>
 :::
 ::::
 :::
 
 ---
 
-## {#add-select-cells data-menu-title="Adding & selecting cells"}
+## {#insert-select-cells data-menu-title="Inserting & selecting cells"}
 
-<div class = "slide-title">Adding cells & selecting multiple cells</div>
+<div class = "slide-title">`r fontawesome::fa("plus", fill = "#05859B", a11y = "sem")` Insert cells & select multiple cells</div>
 
 ::: {.panel-tabset}
 ## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
@@ -89,8 +97,8 @@ text
 ::: {.column width="50%"}
 <br>
 <br>
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Add cell above (command mode): `A`</div>
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Add cell below (command mode): `B`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert cell above (command mode): `A`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert cell below (command mode): `B`</div>
 <div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Select multiple cells (command mode): `shift` + up/down arrow</div>
 :::
 ::::
@@ -101,7 +109,11 @@ text
 iframe
 :::
 ::: {.column width="50%"}
-text
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert cell above (command mode): `A`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Insert cell below (command mode): `B`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Select multiple cells (command mode): `shift` + up/down arrow</div>
 :::
 ::::
 :::
@@ -133,7 +145,10 @@ text
 iframe
 :::
 ::: {.column width="50%"}
-text
+<br>
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open command palette: `control` + `shift` + `P`</div>
 :::
 ::::
 :::

@@ -71,7 +71,10 @@ iframe
 iframe
 :::
 ::: {.column width="50%"}
-text
+<br>
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open Command Palette: `control` + `shift` + `P`</div>
 :::
 ::::
 :::

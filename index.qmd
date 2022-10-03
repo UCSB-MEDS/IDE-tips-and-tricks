@@ -122,7 +122,7 @@ format:
 
 <br> 
 
-<center><div class = "custom-subtitle3">*Jupyter Notebooks are popular for teaching Python and sharing code & prose together. Learning a few keyboard shortcuts can make writing code/markdown and executing/navigating cells much faster.*</div></center>
+<center><div class = "custom-subtitle3">*Jupyter Notebooks are popular for teaching Python and sharing code, outputs, and prose together. Learning a few keyboard shortcuts can make writing code/markdown and executing/navigating cells much faster.*</div></center>
 
 <center><div class = "body-text topbr"><span style = 'color:#d2e3f3;'>*Note:* Jupyter Notebooks have two modes: *edit* (denoted by a green border around the cell) and *command* (denoted by a blue border around the cell). Some shortcuts apply to just *edit* or just *command* mode (and some are the same regardless).</span></div></center>
 </div>
@@ -147,7 +147,7 @@ format:
 
 <div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [15 Useful VS Code Shortcuts to Boost Your Productivity](https://betterprogramming.pub/15-useful-vscode-shortcuts-to-boost-your-productivity-415de3cb1910), by Shubham Khatri</div>
 
-<div class="body-text">[Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings)</div>
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings)</div>
 
 <div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [Jupyter Notebooks Shortcuts](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330), by Ventsislav Yordanov in Towards Data Science</div>
 
