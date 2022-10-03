@@ -1,0 +1,45 @@
+---
+format: 
+  revealjs:
+    preview-links: auto
+    code-link: true
+    highlight-style: a11y
+    chalkboard: true
+    theme: 
+      - meds_styles.scss
+---
+
+## {#file-search data-menu-title="Edit & Command Modes"}
+
+<div class = "slide-title">Shortcuts for both *edit* and *command* modes</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<div class = "body-text">Run selected cell: `control` (or `command`) + `return`</div>
+<div class = "body-text">Run selected cell & move to next cell: `shift` + `return`</div>
+<div class = "body-text">Change cell type to *Markdown*: `M`</div>
+<div class = "body-text">Change cell type to *Code*: `Y`</div>
+<div class = "body-text">Change from edit to command mode (green border): `esc`</div>
+<div class = "body-text">Change from command to edit mode (blue border): `esc`</div>
+<div class = "body-text">Delete cell: `DD` (command mode)
+<div class = "body-text">Select all: `command` + `A`</div>
+<div class = "body-text">Open command palette: `command` + `shift` + `P`</div>
+<div class = "body-text">Move cursor one word to right or left: `option` + right/left arrow</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+text
+:::
+::::
+:::

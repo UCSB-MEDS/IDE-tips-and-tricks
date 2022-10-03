@@ -1,0 +1,166 @@
+---
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: auto
+    code-link: true
+    highlight-style: a11y
+    chalkboard: true
+    theme: 
+      - meds_styles.scss
+---
+
+## {#title-slide data-menu-title="Title Slide" background="media/title_background.png"} 
+
+[IDE Tips & Tricks]{.custom-title}
+
+[*...and other keyboard shortcuts to make you a more efficient programmer* `r fontawesome::fa("keyboard", fill = "#d2e3f3", a11y = "sem")`]{.custom-subtitle}
+
+<br> 
+
+:::: {.columns} 
+
+::: {.column width="50%"}
+[Sam Csik |]{.custom-subtitle2}<br>
+[Data Training Coordinator]{.custom-subtitle2}<br>
+[*National Center for Ecological Analysis & Synthesis*]{.custom-subtitle3}
+:::
+
+::: {.column width="50%"}
+[Master of Environmental Data Science |]{.custom-subtitle2}<br>
+[Fall 2022]{.custom-subtitle2}<br>
+[*Bren School of Environmental Science & Management*]{.custom-subtitle3}
+:::
+
+::::
+
+<br>
+
+<center><span style = 'font-size: 50%; color: #d2e3f3'>Slides & source code available on [`r fontawesome::fa("github", fill = "#d2e3f3", a11y = "sem")`](https://github.com/UCSB-MEDS/R-tips-and-tricks)</span></center>
+
+---
+
+{{< include 1-intro.qmd >}}
+
+---
+
+## {#general-shortcuts data-menu-title="~General Keyboard Shortcuts~" background=#053660} 
+
+<div class = "vertical-center">
+
+<center><div class="custom-title2">General keyboard shortcuts</div></center>
+
+<br>
+
+<center><div class="custom-subtitle3">*Become a keyboard ninja `r fontawesome::fa("user-ninja", fill = "#d2e3f3", a11y = "sem")` across lots of your favorite applications with the stroke of a few keys*</div></center>
+</div>
+
+---
+
+{{< include 2-general-shortcuts.qmd >}}
+
+---
+
+## {#RStudio-shortcuts data-menu-title="~RStudio-specific shortcuts~" background=#053660} 
+
+<div class = "vertical-center">
+
+<center><img src="media/pics/RStudio-logo.png" alt="" style="display: inline-block; margin: 5; position: relative; top: 47px; width:320px;height:110px;"/> shortcuts</center>
+
+<br> 
+
+<center><div class="custom-subtitle3">*Quickly write/edit code and navigate the RStudio IDE using these shortcuts*</div></center>
+
+</div>
+
+---
+
+{{< include 3-rstudio-specific-shortcuts.qmd >}}
+
+---
+
+## {#RStudio-ide-customization data-menu-title="~Customize your RStudio IDE~" background=#053660} 
+
+<div class = "vertical-center">
+
+<center><div class="custom-subtitle2">Customize your RStudio IDE experience</div></center>
+
+<br> 
+
+<center><div class="custom-subtitle3">*The RStudio IDE makes using `r fontawesome::fa("r-project", fill = "#d2e3f3", a11y = "sem")` a whole lot easier (and more fun). We will explore some of the many ways you can customize your RStudio IDE.*</div></center>
+
+</div>
+
+---
+
+{{< include 4-customize-rstudio-ide.qmd >}}
+
+---
+
+## {#VSCode-shortcuts data-menu-title="~VSCode-specific shortcuts~" background=#053660} 
+
+<div class = "vertical-center">
+
+<center><img src="media/pics/VSCode_logo.png" alt="" style="display: inline-block; margin: 5; position: relative; top: 47px; width:340px;height:150px;"/> shortcuts & customization tips</center>
+
+<br> 
+
+<center><div class="custom-subtitle3">*VS Code is a versatile IDE that supports many different languages. Here are just a few helpful tips to get you going.*</div></center>
+</div>
+
+---
+
+{{< include 5-VSCode.qmd >}}
+
+---
+
+## {#Jupyter-shortcuts data-menu-title="~Jupyter Notebook-specific shortcuts~" background=#053660} 
+
+<div class = "vertical-center">
+
+<center><img src="media/pics/jupyter_logo.png" alt="" style="display: inline-block; margin: 5; position: relative; top: 47px; width:340px;height:100px;"/> shortcuts</center>
+
+<br> 
+
+<center><div class="custom-subtitle3">*Jupyter Notebooks are popular for teaching Python and sharing code & prose together. Learning a few keyboard shortcuts can make writing code/markdown and executing cells much faster.*</div></center>
+</div>
+
+---
+
+{{< include 6-JupyterNotebook.qmd}}
+
+---
+
+## {#more-help data-menu-title="More help"}
+
+<div class="slide-title">`r fontawesome::fa("info-circle", fill = "#05859B", a11y = "sem")` More help</div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Mac keyboard shortcuts:  <https://support.apple.com/en-us/HT201236></div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Windows keyboard shortcuts: <https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec></div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part I): <https://appsilon.com/r-studio-shortcuts-and-tips-2/></div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` RStudio Shortcuts and Tips (Part II): <https://appsilon.com/r-studio-shortcuts-and-tips-part-2/></div>
+
+<div class="slide-title">`r fontawesome::fa("twitter", fill = "#05859B", a11y = "sem")` Check out these Twitter accounts for more great tips & tricks</div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rstudiotips](https://twitter.com/rstudiotips)</div>
+
+<div class="body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` [@rfunctionaday](https://twitter.com/rfunctionaday)</div>
+
+---
+
+## {#TheEnd data-menu-title="~Happy Typing!~"}
+
+<center><div class="slide-title">Happy typing!</div></center>
+
+<br>
+
+<center><img src="media/kermit.gif" alt="" width="700"/></center>
+
+::: aside
+<center>This is a Quarto Presentation. To learn more, visit <https://quarto.org>.</center>
+
+<center><span style = 'font-size: 60%;'>*If you see mistakes or want to suggest changes, please create an [issue](https://github.com/UCSB-MEDS/R-tips-and-tricks/issues) on the source repository.*</span></center>
+:::
