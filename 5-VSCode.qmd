@@ -1,0 +1,87 @@
+---
+format: 
+  revealjs:
+    preview-links: auto
+    code-link: true
+    highlight-style: a11y
+    chalkboard: true
+    theme: 
+      - meds_styles.scss
+---
+
+## {#file-search data-menu-title="Search files"}
+
+<div class = "slide-title">`r fontawesome::fa("file", fill = "#05859B", a11y = "sem")` Search for files</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<center><iframe width="550" height="290" src="media/mp4/VSCode_open_file.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` `command` + `P`</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` `control` + `P`</div>
+:::
+::::
+:::
+
+---
+
+## {#command-palette data-menu-title="Command Palette"}
+
+<div class = "slide-title">`r fontawesome::fa("search-plus", fill = "#05859B", a11y = "sem")` Open the Command Palette</div>
+
+<div class = "body-text topbr">The Command Palette provides access lots of different commands -- use this to easily connect to a server, find debugging tools, search extension-specific functionality, and more.</div>
+
+::: {.panel-tabset}
+## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
+:::: {.columns}
+::: {.column width="50%"}
+<br>
+<center><iframe width="550" height="290" src="media/mp4/command_palette.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+:::
+::: {.column width="50%"}
+<br>
+<br>
+<br>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` `command` + `shift` + `P`</div>
+:::
+::::
+
+## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
+:::: {.columns}
+::: {.column width="50%"}
+iframe
+:::
+::: {.column width="50%"}
+text
+:::
+::::
+:::
+
+---
+
+## {#arrange-panels data-menu-title="Editor Layout"}
+
+<div class = "slide-title">`r fontawesome::fa("th-large", fill = "#05859B", a11y = "sem")` Change the Editor Layout</div>
+
+<div class = "body-text topbr">Arrange your tabs in different layouts -- navigate to `View` > `Editor Layout` to pick the one that works best for you. Drag files tabs to arrange them across your multiple viewer panes.</div> 
+
+<center><iframe width="700" height="415" src="media/mp4/grid.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
