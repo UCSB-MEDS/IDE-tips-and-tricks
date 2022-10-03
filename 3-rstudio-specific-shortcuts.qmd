@@ -492,16 +492,16 @@ iframe
 
 <div class = "slide-title">RStudio IDE Cheat Sheet (1/2)</div>
 
-<center><div class = "body-text topbr">Download [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide1.png)!</div></center>
+<center><div class = "body-text topbr">Download [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf)!</div></center>
 
-<center><img src="media/pics/RStudio-ide1.png" alt="" width="700"/></center>
+<center><img src="media/pics/rstudio-ide1.png" alt="" width="700"/></center>
 
 ---
 
 ## {#cheatsheet2 data-menu-title="RStudio Cheat Sheet 2"}
 
-<div class = "slide-title">rstudio IDE Cheat Sheet (2/2)</div>
+<div class = "slide-title">RStudio IDE Cheat Sheet (2/2)</div>
 
-<center><div class = "body-text topbr">Download [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide2.png)!</div></center>
+<center><div class = "body-text topbr">Download [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf)!</div></center>
 
-<center><img src="media/pics/RStudio-ide2.png" alt="" width="700"/></center>
+<center><img src="media/pics/rstudio-ide2.png" alt="" width="700"/></center>
