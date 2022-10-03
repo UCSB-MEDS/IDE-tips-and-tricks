@@ -36,7 +36,7 @@ format:
 
 <br>
 
-<center><span style = 'font-size: 50%; color: #d2e3f3'>Slides & source code available on [`r fontawesome::fa("github", fill = "#d2e3f3", a11y = "sem")`](https://github.com/UCSB-MEDS/R-tips-and-tricks)</span></center>
+<center><span style = 'font-size: 50%; color: #d2e3f3'>Slides & source code available on [`r fontawesome::fa("github", fill = "#d2e3f3", a11y = "sem")`](https://github.com/UCSB-MEDS/IDE-tips-and-tricks)</span></center>
 
 ---
 

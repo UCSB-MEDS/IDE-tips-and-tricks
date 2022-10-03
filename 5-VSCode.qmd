@@ -24,7 +24,7 @@ format:
 <br>
 <br>
 <br>
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` `command` + `P`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Search for files: `command` + `P`</div>
 :::
 ::::
 
@@ -37,7 +37,7 @@ iframe
 <br>
 <br>
 <br>
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` `control` + `P`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Search for files: `control` + `P`</div>
 :::
 ::::
 :::
@@ -61,7 +61,7 @@ iframe
 <br>
 <br>
 <br>
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` `command` + `shift` + `P`</div>
+<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Open Command Palette: `command` + `shift` + `P`</div>
 :::
 ::::
 
