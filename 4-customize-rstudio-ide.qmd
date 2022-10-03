@@ -58,43 +58,6 @@ format:
 
 ---
 
-## {#code-folding data-menu-title="Code folding"}
-
-<div class = "slide-title">`r fontawesome::fa("eye-slash", fill = "#05859B", a11y = "sem")` Code folding</div>
-
-<div class = "body-text topbr">Any comment line which includes at least 4 trailing `-`, `=`, or `#` automatically creates a code section. You can read more about code folding [here](https://support.rstudio.com/hc/en-us/articles/200484568-Code-Folding-and-Sections-in-the-RStudio-IDE). Also check out the [{ARTofR}](https://github.com/Hzhang-ouce/ARTofR) package for creating fancier code sections!</div>
-
-::: {.panel-tabset}
-## `r fontawesome::fa("apple", fill = "#053660", a11y = "sem")` Mac
-:::: {.columns}
-::: {.column width="50%"}
-<br>
-<iframe width="550" height="290" src="media/mp4/code_folding.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-::: {.column width="50%"}
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Collapse single section: `option` + `command` + `L`</div>  
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Expand single section: `option` + `command` + `shift` + `L`</div>  
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Collapse all sections: `option` + `command` + `O`</div>   
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Expand all sections: `option` + `command` + `shift` + `O`</div>
-:::
-::::
-
-## `r fontawesome::fa("windows", fill = "#053660", a11y = "sem")` Windows
-:::: {.columns}
-::: {.column width="50%"}
-iframe
-:::
-::: {.column width="50%"}
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Collapse single section: `alt` + `L`</div>  
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Expand single section: `alt` + `shift` + `L`</div>  
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Collapse all sections: `alt` + `O`</div>   
-<div class = "body-text">`r fontawesome::fa("angle-right", fill = "#05859B", a11y = "sem")` Expand all sections: `alt` + `shift` + `O`</div>
-:::
-::::
-:::
-
----
-
 ## {#multiple-sessions data-menu-title="Multiple RStudio Sessions"}
 
 <div class = "slide-title">`r fontawesome::fa("plus", fill = "#05859B", a11y = "sem")` Open multiple RStudio sessions</div>
